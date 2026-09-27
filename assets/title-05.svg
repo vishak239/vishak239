@@ -16,21 +16,21 @@
       <stop offset="0" stop-color="#050505"/><stop offset="1" stop-color="#0B0B0B"/>
     </linearGradient>
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#C9A227" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#E6C45A"/>
-      <stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+      <stop offset="0" stop-color="#D7263D" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#FF4D5E"/>
+      <stop offset="1" stop-color="#D7263D" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="ruleL" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#E6C45A"/>
-      <stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+      <stop offset="0" stop-color="#FF4D5E"/>
+      <stop offset="1" stop-color="#D7263D" stop-opacity="0"/>
     </linearGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#C9A227" stroke-opacity=".05"/>
+      <path d="M32 0H0V32" fill="none" stroke="#D7263D" stroke-opacity=".05"/>
     </pattern>
   </defs>
-  <text x="4" y="46" class="mono" font-size="15" letter-spacing="2" fill="#C9A227">05</text>
-  <text x="42" y="46" class="mono" font-size="15" fill="#6F6A62">/</text>
-  <text x="70" y="47" class="sans" font-size="22" font-weight="600" letter-spacing="7" fill="#F5F1E8">EDUCATION</text>
+  <text x="4" y="46" class="mono" font-size="15" letter-spacing="2" fill="#D7263D">05</text>
+  <text x="42" y="46" class="mono" font-size="15" fill="#6E6566">/</text>
+  <text x="70" y="47" class="sans" font-size="22" font-weight="600" letter-spacing="7" fill="#F7F2F2">EDUCATION</text>
   <rect x="328" y="40" width="868" height="1" fill="url(#ruleL)" opacity=".7"/>
-  <rect x="1188" y="36" width="8" height="8" transform="rotate(45 1192 40)" fill="none" stroke="#E6C45A"/>
+  <rect x="1188" y="36" width="8" height="8" transform="rotate(45 1192 40)" fill="none" stroke="#FF4D5E"/>
 </svg>

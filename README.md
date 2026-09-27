@@ -99,7 +99,7 @@ I’m **Vishak**, a final-year **Artificial Intelligence & Data Science** studen
 </picture>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=vishak239&background=0B0B0B&border=1F1B10&stroke=2E2816&ring=C9A227&fire=E6C45A&currStreakNum=F5F1E8&sideNums=F5F1E8&currStreakLabel=E6C45A&sideLabels=A9A39A&dates=6F6A62&border_radius=16&card_width=1000&card_height=200" width="100%" alt="GitHub contribution streak for vishak239" />
+  <img src="https://streak-stats.demolab.com/?user=vishak239&background=0B0B0B&border=26100F&stroke=3A1517&ring=D7263D&fire=FF4D5E&currStreakNum=F7F2F2&sideNums=F7F2F2&currStreakLabel=FF4D5E&sideLabels=ABA3A3&dates=6E6566&border_radius=16&card_width=1000&card_height=200" width="100%" alt="GitHub contribution streak for vishak239" />
 </p>
 
 <br>

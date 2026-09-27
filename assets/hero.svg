@@ -20,74 +20,74 @@
       <stop offset="0" stop-color="#050505"/><stop offset="1" stop-color="#0B0B0B"/>
     </linearGradient>
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#C9A227" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#E6C45A"/>
-      <stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+      <stop offset="0" stop-color="#D7263D" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#FF4D5E"/>
+      <stop offset="1" stop-color="#D7263D" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="ruleL" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#E6C45A"/>
-      <stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+      <stop offset="0" stop-color="#FF4D5E"/>
+      <stop offset="1" stop-color="#D7263D" stop-opacity="0"/>
     </linearGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#C9A227" stroke-opacity=".05"/>
+      <path d="M32 0H0V32" fill="none" stroke="#D7263D" stroke-opacity=".05"/>
     </pattern>
     <radialGradient id="glow" cx=".78" cy=".5" r=".45">
-      <stop offset="0" stop-color="#C9A227" stop-opacity=".13"/><stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+      <stop offset="0" stop-color="#D7263D" stop-opacity=".13"/><stop offset="1" stop-color="#D7263D" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="scanline" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#E6C45A" stop-opacity="0"/><stop offset=".5" stop-color="#E6C45A"/><stop offset="1" stop-color="#E6C45A" stop-opacity="0"/>
+      <stop offset="0" stop-color="#FF4D5E" stop-opacity="0"/><stop offset=".5" stop-color="#FF4D5E"/><stop offset="1" stop-color="#FF4D5E" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
   <rect width="1200" height="420" rx="18" fill="url(#bg)"/>
-  <rect x=".5" y=".5" width="1199" height="419" rx="18" fill="none" stroke="#1F1B10"/>
+  <rect x=".5" y=".5" width="1199" height="419" rx="18" fill="none" stroke="#26100F"/>
   <rect width="1200" height="420" rx="18" fill="url(#grid)"/>
   <rect width="1200" height="420" rx="18" fill="url(#glow)"/>
   
-  <g stroke="#C9A227" stroke-opacity=".55" stroke-width="1.2" fill="none">
+  <g stroke="#D7263D" stroke-opacity=".55" stroke-width="1.2" fill="none">
     <path d="M28 48V28H48"/><path d="M1152 28H1172V48"/>
     <path d="M28 372V392H48"/><path d="M1152 392H1172V372"/>
   </g>
 
   <g class="sans">
-    <text x="80" y="104" class="mono" font-size="15" fill="#A9A39A"><tspan fill="#C9A227">~/vishak239</tspan> <tspan fill="#6F6A62">$</tspan> whoami<tspan class="caret" fill="#E6C45A"> ▍</tspan></text>
-    <text x="76" y="196" font-size="86" font-weight="300" letter-spacing="16" fill="#F5F1E8">V VISHAK</text>
+    <text x="80" y="104" class="mono" font-size="15" fill="#ABA3A3"><tspan fill="#D7263D">~/vishak239</tspan> <tspan fill="#6E6566">$</tspan> whoami<tspan class="caret" fill="#FF4D5E"> ▍</tspan></text>
+    <text x="76" y="196" font-size="86" font-weight="300" letter-spacing="16" fill="#F7F2F2">V VISHAK</text>
     <rect x="80" y="224" width="340" height="1.4" fill="url(#ruleL)"/>
-    <text x="80" y="264" font-size="16" font-weight="600" letter-spacing="4.5" fill="#C9A227">AI ENGINEER  ·  PYTHON DEVELOPER  ·  AI / ML</text>
-    <text x="80" y="306" font-size="18" fill="#A9A39A">Building intelligent systems with Python,</text>
-    <text x="80" y="332" font-size="18" fill="#A9A39A">machine learning and computer vision.</text>
+    <text x="80" y="264" font-size="16" font-weight="600" letter-spacing="4.5" fill="#D7263D">AI ENGINEER  ·  PYTHON DEVELOPER  ·  AI / ML</text>
+    <text x="80" y="306" font-size="18" fill="#ABA3A3">Building intelligent systems with Python,</text>
+    <text x="80" y="332" font-size="18" fill="#ABA3A3">machine learning and computer vision.</text>
   </g>
 
   <g transform="translate(80 350)">
-    <rect width="372" height="30" rx="15" fill="#C9A227" fill-opacity=".07" stroke="#C9A227" stroke-opacity=".35"/>
-    <circle cx="18" cy="15" r="4" fill="#E6C45A" class="pulse"/>
-    <text x="32" y="20" class="mono" font-size="12" letter-spacing="1.2" fill="#E6C45A">NOW BUILDING <tspan fill="#F5F1E8">PrepPitch · Django / Python</tspan></text>
+    <rect width="372" height="30" rx="15" fill="#D7263D" fill-opacity=".07" stroke="#D7263D" stroke-opacity=".35"/>
+    <circle cx="18" cy="15" r="4" fill="#FF4D5E" class="pulse"/>
+    <text x="32" y="20" class="mono" font-size="12" letter-spacing="1.2" fill="#FF4D5E">NOW BUILDING <tspan fill="#F7F2F2">PrepPitch · Django / Python</tspan></text>
   </g>
 
   <!-- viewfinder + network -->
-  <g stroke="#C9A227" stroke-opacity=".6" stroke-width="1.4" fill="none">
+  <g stroke="#D7263D" stroke-opacity=".6" stroke-width="1.4" fill="none">
     <path d="M740 116V92H764"/><path d="M1116 92H1140V116"/>
     <path d="M740 304V328H764"/><path d="M1116 328H1140V304"/>
   </g>
-  <text x="742" y="80" class="mono" font-size="11" letter-spacing="2" fill="#6F6A62">REC ● VISION · LEARNING · INFERENCE</text>
-  <g stroke="#C9A227" stroke-opacity=".16" stroke-width="1"><path d="M800 150L905 120"/><path d="M800 150L905 180"/><path d="M800 150L905 240"/><path d="M800 150L905 300"/><path d="M800 210L905 120"/><path d="M800 210L905 180"/><path d="M800 210L905 240"/><path d="M800 210L905 300"/><path d="M800 270L905 120"/><path d="M800 270L905 180"/><path d="M800 270L905 240"/><path d="M800 270L905 300"/><path d="M905 120L1010 150"/><path d="M905 120L1010 210"/><path d="M905 120L1010 270"/><path d="M905 180L1010 150"/><path d="M905 180L1010 210"/><path d="M905 180L1010 270"/><path d="M905 240L1010 150"/><path d="M905 240L1010 210"/><path d="M905 240L1010 270"/><path d="M905 300L1010 150"/><path d="M905 300L1010 210"/><path d="M905 300L1010 270"/><path d="M1010 150L1115 180"/><path d="M1010 150L1115 240"/><path d="M1010 210L1115 180"/><path d="M1010 210L1115 240"/><path d="M1010 270L1115 180"/><path d="M1010 270L1115 240"/></g>
-  <g stroke="#E6C45A" stroke-opacity=".55" stroke-width="1" fill="none">
+  <text x="742" y="80" class="mono" font-size="11" letter-spacing="2" fill="#6E6566">REC ● VISION · LEARNING · INFERENCE</text>
+  <g stroke="#D7263D" stroke-opacity=".16" stroke-width="1"><path d="M800 150L905 120"/><path d="M800 150L905 180"/><path d="M800 150L905 240"/><path d="M800 150L905 300"/><path d="M800 210L905 120"/><path d="M800 210L905 180"/><path d="M800 210L905 240"/><path d="M800 210L905 300"/><path d="M800 270L905 120"/><path d="M800 270L905 180"/><path d="M800 270L905 240"/><path d="M800 270L905 300"/><path d="M905 120L1010 150"/><path d="M905 120L1010 210"/><path d="M905 120L1010 270"/><path d="M905 180L1010 150"/><path d="M905 180L1010 210"/><path d="M905 180L1010 270"/><path d="M905 240L1010 150"/><path d="M905 240L1010 210"/><path d="M905 240L1010 270"/><path d="M905 300L1010 150"/><path d="M905 300L1010 210"/><path d="M905 300L1010 270"/><path d="M1010 150L1115 180"/><path d="M1010 150L1115 240"/><path d="M1010 210L1115 180"/><path d="M1010 210L1115 240"/><path d="M1010 270L1115 180"/><path d="M1010 270L1115 240"/></g>
+  <g stroke="#FF4D5E" stroke-opacity=".55" stroke-width="1" fill="none">
     <path class="flow" d="M800 210L905 180L1010 210L1115 240"/>
     <path class="flow" style="animation-delay:-1.1s" d="M800 150L905 240L1010 150L1115 180"/>
   </g>
-  <circle cx="800" cy="150" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
-      <circle cx="800" cy="150" r="3" fill="#E6C45A" class="pulse" style="animation-delay:0.00s"/><circle cx="800" cy="210" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
-      <circle cx="800" cy="210" r="3" fill="#E6C45A" class="pulse" style="animation-delay:0.23s"/><circle cx="800" cy="270" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
-      <circle cx="800" cy="270" r="3" fill="#E6C45A" class="pulse" style="animation-delay:0.46s"/><circle cx="905" cy="120" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
-      <circle cx="905" cy="120" r="3" fill="#E6C45A" class="pulse" style="animation-delay:0.69s"/><circle cx="905" cy="180" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
-      <circle cx="905" cy="180" r="3" fill="#E6C45A" class="pulse" style="animation-delay:0.92s"/><circle cx="905" cy="240" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
-      <circle cx="905" cy="240" r="3" fill="#E6C45A" class="pulse" style="animation-delay:1.15s"/><circle cx="905" cy="300" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
-      <circle cx="905" cy="300" r="3" fill="#E6C45A" class="pulse" style="animation-delay:1.38s"/><circle cx="1010" cy="150" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
-      <circle cx="1010" cy="150" r="3" fill="#E6C45A" class="pulse" style="animation-delay:1.61s"/><circle cx="1010" cy="210" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
-      <circle cx="1010" cy="210" r="3" fill="#E6C45A" class="pulse" style="animation-delay:1.84s"/><circle cx="1010" cy="270" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
-      <circle cx="1010" cy="270" r="3" fill="#E6C45A" class="pulse" style="animation-delay:2.07s"/><circle cx="1115" cy="180" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
-      <circle cx="1115" cy="180" r="3" fill="#E6C45A" class="pulse" style="animation-delay:2.30s"/><circle cx="1115" cy="240" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
-      <circle cx="1115" cy="240" r="3" fill="#E6C45A" class="pulse" style="animation-delay:2.53s"/>
+  <circle cx="800" cy="150" r="7" fill="#050505" stroke="#D7263D" stroke-width="1.4"/>
+      <circle cx="800" cy="150" r="3" fill="#FF4D5E" class="pulse" style="animation-delay:0.00s"/><circle cx="800" cy="210" r="7" fill="#050505" stroke="#D7263D" stroke-width="1.4"/>
+      <circle cx="800" cy="210" r="3" fill="#FF4D5E" class="pulse" style="animation-delay:0.23s"/><circle cx="800" cy="270" r="7" fill="#050505" stroke="#D7263D" stroke-width="1.4"/>
+      <circle cx="800" cy="270" r="3" fill="#FF4D5E" class="pulse" style="animation-delay:0.46s"/><circle cx="905" cy="120" r="7" fill="#050505" stroke="#D7263D" stroke-width="1.4"/>
+      <circle cx="905" cy="120" r="3" fill="#FF4D5E" class="pulse" style="animation-delay:0.69s"/><circle cx="905" cy="180" r="7" fill="#050505" stroke="#D7263D" stroke-width="1.4"/>
+      <circle cx="905" cy="180" r="3" fill="#FF4D5E" class="pulse" style="animation-delay:0.92s"/><circle cx="905" cy="240" r="7" fill="#050505" stroke="#D7263D" stroke-width="1.4"/>
+      <circle cx="905" cy="240" r="3" fill="#FF4D5E" class="pulse" style="animation-delay:1.15s"/><circle cx="905" cy="300" r="7" fill="#050505" stroke="#D7263D" stroke-width="1.4"/>
+      <circle cx="905" cy="300" r="3" fill="#FF4D5E" class="pulse" style="animation-delay:1.38s"/><circle cx="1010" cy="150" r="7" fill="#050505" stroke="#D7263D" stroke-width="1.4"/>
+      <circle cx="1010" cy="150" r="3" fill="#FF4D5E" class="pulse" style="animation-delay:1.61s"/><circle cx="1010" cy="210" r="7" fill="#050505" stroke="#D7263D" stroke-width="1.4"/>
+      <circle cx="1010" cy="210" r="3" fill="#FF4D5E" class="pulse" style="animation-delay:1.84s"/><circle cx="1010" cy="270" r="7" fill="#050505" stroke="#D7263D" stroke-width="1.4"/>
+      <circle cx="1010" cy="270" r="3" fill="#FF4D5E" class="pulse" style="animation-delay:2.07s"/><circle cx="1115" cy="180" r="7" fill="#050505" stroke="#D7263D" stroke-width="1.4"/>
+      <circle cx="1115" cy="180" r="3" fill="#FF4D5E" class="pulse" style="animation-delay:2.30s"/><circle cx="1115" cy="240" r="7" fill="#050505" stroke="#D7263D" stroke-width="1.4"/>
+      <circle cx="1115" cy="240" r="3" fill="#FF4D5E" class="pulse" style="animation-delay:2.53s"/>
   <g class="scan"><rect x="744" y="96" width="392" height="1.5" fill="url(#scanline)"/></g>
-  <text x="1140" y="352" class="mono" font-size="11" letter-spacing="2" fill="#6F6A62" text-anchor="end">KANYAKUMARI · INDIA</text>
+  <text x="1140" y="352" class="mono" font-size="11" letter-spacing="2" fill="#6E6566" text-anchor="end">KANYAKUMARI · INDIA</text>
 </svg>

@@ -22,7 +22,7 @@ assets/
   footer.svg                 # 09 contact banner
 ```
 
-Palette: background `#050505` / `#0B0B0B`, card `#0E0E0D`, gold `#C9A227` / `#E6C45A`, text `#F5F1E8`, muted `#A9A39A`.
+Palette: background `#050505` / `#0B0B0B`, card `#0E0E0D`, red `#D7263D` / `#FF4D5E`, text `#F7F2F2`, muted `#ABA3A3`.
 GitHub strips CSS from READMEs, so all styling lives inside the SVGs. Animations are CSS inside the SVGs, never hide content on the first frame, and stop under `prefers-reduced-motion`.
 
 ## Updating

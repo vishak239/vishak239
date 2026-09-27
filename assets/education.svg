@@ -16,33 +16,33 @@
       <stop offset="0" stop-color="#050505"/><stop offset="1" stop-color="#0B0B0B"/>
     </linearGradient>
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#C9A227" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#E6C45A"/>
-      <stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+      <stop offset="0" stop-color="#D7263D" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#FF4D5E"/>
+      <stop offset="1" stop-color="#D7263D" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="ruleL" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#E6C45A"/>
-      <stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+      <stop offset="0" stop-color="#FF4D5E"/>
+      <stop offset="1" stop-color="#D7263D" stop-opacity="0"/>
     </linearGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#C9A227" stroke-opacity=".05"/>
+      <path d="M32 0H0V32" fill="none" stroke="#D7263D" stroke-opacity=".05"/>
     </pattern>
   </defs>
 
   <rect width="1200" height="150" rx="16" fill="url(#bg)"/>
-  <rect x=".5" y=".5" width="1199" height="149" rx="16" fill="none" stroke="#1F1B10"/>
+  <rect x=".5" y=".5" width="1199" height="149" rx="16" fill="none" stroke="#26100F"/>
   <g transform="translate(40 24)">
-    <rect width="720" height="102" rx="12" fill="#0E0E0D" stroke="#2E2816"/>
-    <rect x="20" y="0" width="36" height="2" fill="#C9A227"/>
-    <text x="20" y="32" class="mono" font-size="11" letter-spacing="2.5" fill="#C9A227">UNIVERSITY</text>
-    <text x="20" y="62" class="sans" font-size="20" font-weight="600" fill="#F5F1E8">B.Tech Artificial Intelligence &amp; Data Science</text>
-    <text x="20" y="86" class="sans" font-size="13.5" fill="#A9A39A">Loyola Institute of Technology and Science · Final year · CGPA 8.5 / 10 · 2027</text>
+    <rect width="720" height="102" rx="12" fill="#100C0D" stroke="#3A1517"/>
+    <rect x="20" y="0" width="36" height="2" fill="#D7263D"/>
+    <text x="20" y="32" class="mono" font-size="11" letter-spacing="2.5" fill="#D7263D">UNIVERSITY</text>
+    <text x="20" y="62" class="sans" font-size="20" font-weight="600" fill="#F7F2F2">B.Tech Artificial Intelligence &amp; Data Science</text>
+    <text x="20" y="86" class="sans" font-size="13.5" fill="#ABA3A3">Loyola Institute of Technology and Science · Final year · CGPA 8.5 / 10 · 2027</text>
   </g>
   <g transform="translate(780 24)">
-    <rect width="356" height="102" rx="12" fill="#0E0E0D" stroke="#2E2816"/>
-    <rect x="20" y="0" width="36" height="2" fill="#C9A227"/>
-    <text x="20" y="32" class="mono" font-size="11" letter-spacing="2.5" fill="#C9A227">SCHOOL</text>
-    <text x="20" y="62" class="sans" font-size="20" font-weight="600" fill="#F5F1E8">Vidya Jyothi Matriculation HSS</text>
-    <text x="20" y="86" class="sans" font-size="13.5" fill="#A9A39A">State Board</text>
+    <rect width="356" height="102" rx="12" fill="#100C0D" stroke="#3A1517"/>
+    <rect x="20" y="0" width="36" height="2" fill="#D7263D"/>
+    <text x="20" y="32" class="mono" font-size="11" letter-spacing="2.5" fill="#D7263D">SCHOOL</text>
+    <text x="20" y="62" class="sans" font-size="20" font-weight="600" fill="#F7F2F2">Vidya Jyothi Matriculation HSS</text>
+    <text x="20" y="86" class="sans" font-size="13.5" fill="#ABA3A3">State Board</text>
   </g>
 </svg>
