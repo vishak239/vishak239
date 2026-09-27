@@ -176,7 +176,8 @@ function repoCard(r) {
 writeFileSync(join(OUT, "contributions.svg"), contributions(data.contributionsCollection.contributionCalendar));
 const byName = Object.fromEntries(data.repositories.nodes.map((r) => [r.name, r]));
 for (const name of PINNED) {
-  if (!byName[name]) throw new Error(`repository not found: ${name}`);
+  // A repo that is private or missing keeps its last generated card.
+  if (!byName[name]) { console.warn(`skipped ${name}: not a public repository`); continue; }
   writeFileSync(join(OUT, `repo-${name}.svg`), repoCard(byName[name]));
 }
 console.log("live assets written to", OUT);
