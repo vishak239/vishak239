@@ -1,0 +1,88 @@
+/* ==UserStyle==
+@name         GitHub — Red & Black (vishak239)
+@namespace    github.com/vishak239
+@version      1.0.0
+@description  Repaints GitHub in the red and black profile theme: near-black surfaces, red accents, red buttons and a red contribution graph. Only changes how GitHub looks in your own browser.
+@author       V Vishak
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("github.com"), domain("gist.github.com") {
+  :root,
+  [data-color-mode] {
+    /* surfaces */
+    --bgColor-default: #050505 !important;
+    --bgColor-muted: #0B0B0B !important;
+    --bgColor-inset: #030303 !important;
+    --bgColor-emphasis: #26100F !important;
+    --bgColor-neutral-muted: rgba(215, 38, 61, 0.10) !important;
+    --overlay-bgColor: #0B0B0B !important;
+    --header-bgColor: #050505 !important;
+    --bgColor-accent-muted: rgba(215, 38, 61, 0.15) !important;
+    --bgColor-accent-emphasis: #D7263D !important;
+
+    /* borders */
+    --borderColor-default: #26100F !important;
+    --borderColor-muted: #1A0B0C !important;
+    --borderColor-emphasis: #3A1517 !important;
+    --borderColor-accent-emphasis: #D7263D !important;
+    --borderColor-accent-muted: rgba(215, 38, 61, 0.4) !important;
+
+    /* text */
+    --fgColor-default: #F7F2F2 !important;
+    --fgColor-muted: #ABA3A3 !important;
+    --fgColor-accent: #FF4D5E !important;
+    --fgColor-link: #FF4D5E !important;
+    --focus-outlineColor: #FF4D5E !important;
+    --underlineNav-borderColor-active: #D7263D !important;
+
+    /* primary (normally green) buttons */
+    --button-primary-bgColor-rest: #D7263D !important;
+    --button-primary-bgColor-hover: #FF4D5E !important;
+    --button-primary-bgColor-active: #B81D31 !important;
+    --button-primary-borderColor-rest: #D7263D !important;
+    --button-primary-borderColor-hover: #FF4D5E !important;
+    --button-primary-fgColor-rest: #FFFFFF !important;
+    --button-default-bgColor-rest: #0B0B0B !important;
+    --button-default-bgColor-hover: #1A0B0C !important;
+    --button-default-borderColor-rest: #3A1517 !important;
+    --control-checked-bgColor-rest: #D7263D !important;
+    --control-checked-bgColor-hover: #FF4D5E !important;
+
+    /* contribution graph */
+    --contribution-default-bgColor-0: #161012 !important;
+    --contribution-default-bgColor-1: #4A1219 !important;
+    --contribution-default-bgColor-2: #7E1624 !important;
+    --contribution-default-bgColor-3: #B81D31 !important;
+    --contribution-default-bgColor-4: #FF4D5E !important;
+    --contribution-default-borderColor-0: rgba(255, 77, 94, 0.06) !important;
+
+    /* older variable names still used on some pages */
+    --color-canvas-default: #050505 !important;
+    --color-canvas-subtle: #0B0B0B !important;
+    --color-canvas-inset: #030303 !important;
+    --color-canvas-overlay: #0B0B0B !important;
+    --color-border-default: #26100F !important;
+    --color-border-muted: #1A0B0C !important;
+    --color-fg-default: #F7F2F2 !important;
+    --color-fg-muted: #ABA3A3 !important;
+    --color-accent-fg: #FF4D5E !important;
+    --color-accent-emphasis: #D7263D !important;
+    --color-btn-primary-bg: #D7263D !important;
+    --color-btn-primary-hover-bg: #FF4D5E !important;
+    --color-calendar-graph-day-bg: #161012 !important;
+    --color-calendar-graph-day-L1-bg: #4A1219 !important;
+    --color-calendar-graph-day-L2-bg: #7E1624 !important;
+    --color-calendar-graph-day-L3-bg: #B81D31 !important;
+    --color-calendar-graph-day-L4-bg: #FF4D5E !important;
+  }
+
+  body {
+    background-color: #050505 !important;
+  }
+
+  ::selection {
+    background: #D7263D;
+    color: #050505;
+  }
+}
