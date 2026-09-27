@@ -55,7 +55,16 @@ function hero() {
     </radialGradient>
     <linearGradient id="scanline" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="${C.accent2}" stop-opacity="0"/><stop offset=".5" stop-color="${C.accent2}"/><stop offset="1" stop-color="${C.accent2}" stop-opacity="0"/>
-    </linearGradient>`,
+    </linearGradient>
+    <!-- name: warm red gradient that drifts slowly across the letters -->
+    <linearGradient id="nameGrad" gradientUnits="userSpaceOnUse" x1="76" y1="0" x2="476" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#FFE1E4"/>
+      <stop offset=".3" stop-color="${C.accent2}"/>
+      <stop offset=".62" stop-color="${C.accent}"/>
+      <stop offset="1" stop-color="#FF7A45"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0; 400 0; 0 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="nameGlow" x="-10%" y="-40%" width="120%" height="180%"><feGaussianBlur stdDeviation="10"/></filter>`,
     },
     `${panel(W, H, 18)}
   <rect width="${W}" height="${H}" rx="18" fill="url(#grid)"/>
@@ -63,7 +72,8 @@ function hero() {
   ${corners(W, H, 28, 20)}
 
   <text x="80" y="92" class="mono" font-size="13" letter-spacing="4" fill="${C.accent2}">ACT I // SCENE 01<tspan fill="${C.dim}">  ·  AN AI ENGINEER’S JOURNEY</tspan></text>
-  <text x="76" y="184" class="serif" font-size="84" font-weight="400" letter-spacing="6" fill="${C.text}">V Vishak</text>
+  <text x="76" y="184" class="serif" font-size="84" font-weight="400" letter-spacing="6" fill="${C.accent}" opacity=".35" filter="url(#nameGlow)" aria-hidden="true">V Vishak</text>
+  <text x="76" y="184" class="serif" font-size="84" font-weight="400" letter-spacing="6" fill="url(#nameGrad)">V Vishak</text>
   <text x="80" y="226" class="mono" font-size="15" font-weight="600" letter-spacing="4.5" fill="${C.accent}">AI ENGINEER / PYTHON DEVELOPER / AI / ML</text>
   <rect x="80" y="248" width="340" height="1.4" fill="url(#ruleL)"/>
   <text x="80" y="292" class="serif" font-size="25" font-style="italic" fill="${C.accent2}">“Building intelligence. Creating what’s next.”</text>

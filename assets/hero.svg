@@ -37,6 +37,15 @@
     <linearGradient id="scanline" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#FF4D5E" stop-opacity="0"/><stop offset=".5" stop-color="#FF4D5E"/><stop offset="1" stop-color="#FF4D5E" stop-opacity="0"/>
     </linearGradient>
+    <!-- name: warm red gradient that drifts slowly across the letters -->
+    <linearGradient id="nameGrad" gradientUnits="userSpaceOnUse" x1="76" y1="0" x2="476" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#FFE1E4"/>
+      <stop offset=".3" stop-color="#FF4D5E"/>
+      <stop offset=".62" stop-color="#D7263D"/>
+      <stop offset="1" stop-color="#FF7A45"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0; 400 0; 0 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="nameGlow" x="-10%" y="-40%" width="120%" height="180%"><feGaussianBlur stdDeviation="10"/></filter>
   </defs>
 
   <rect width="1200" height="460" rx="18" fill="url(#bg)"/>
@@ -50,7 +59,8 @@
   </g>
 
   <text x="80" y="92" class="mono" font-size="13" letter-spacing="4" fill="#FF4D5E">ACT I // SCENE 01<tspan fill="#6E6566">  ·  AN AI ENGINEER’S JOURNEY</tspan></text>
-  <text x="76" y="184" class="serif" font-size="84" font-weight="400" letter-spacing="6" fill="#F7F2F2">V Vishak</text>
+  <text x="76" y="184" class="serif" font-size="84" font-weight="400" letter-spacing="6" fill="#D7263D" opacity=".35" filter="url(#nameGlow)" aria-hidden="true">V Vishak</text>
+  <text x="76" y="184" class="serif" font-size="84" font-weight="400" letter-spacing="6" fill="url(#nameGrad)">V Vishak</text>
   <text x="80" y="226" class="mono" font-size="15" font-weight="600" letter-spacing="4.5" fill="#D7263D">AI ENGINEER / PYTHON DEVELOPER / AI / ML</text>
   <rect x="80" y="248" width="340" height="1.4" fill="url(#ruleL)"/>
   <text x="80" y="292" class="serif" font-size="25" font-style="italic" fill="#FF4D5E">“Building intelligence. Creating what’s next.”</text>
