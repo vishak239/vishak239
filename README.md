@@ -27,7 +27,7 @@ I’m Vishak, a final-year Artificial Intelligence & Data Science student who bu
 
 #### PrepPitch — interview-practice platform
 
-PrepPitch is an interview-practice platform I am developing. It has a public React/TypeScript prototype, and a separate Django/Python backend is currently in development.
+PrepPitch is an interview-practice platform I am developing. It has a public React/TypeScript prototype, and I am separately developing the main application with Django/Python, which is in development and not yet public.
 
 **Public prototype** · [github.com/vishak239/Prep-pitch](https://github.com/vishak239/Prep-pitch) · React · TypeScript · Vite · Tailwind CSS · Gemini API
 
@@ -51,7 +51,7 @@ Backend · interview flow · question engine · answer evaluation · speech-to-t
 
 | Project | What it is | Stack | Status |
 |---|---|---|---|
-| [**PrepPitch**](https://github.com/vishak239/Prep-pitch) | Interview-practice web app | React · TypeScript · Gemini API | Prototype · backend in development |
+| [**PrepPitch**](https://github.com/vishak239/Prep-pitch) | Interview-practice web app | React · TypeScript · Gemini API | Public prototype · Django version in development |
 | **Driver Drowsiness Detection** | Webcam-based drowsiness detection using the Eye Aspect Ratio and a CNN-based approach | Python · OpenCV | Repository not yet public |
 | [**House Price Prediction**](https://github.com/vishak239/house-price-prediction) | Compares Linear Regression and Random Forest, evaluated with MAE | Python · pandas · scikit-learn | Phase 1 notebook |
 | [**Multiple Linear Regression**](https://github.com/vishak239/Multiple-Linear-regression-practices) | Multi-feature regression experiments | Python · NumPy · scikit-learn | Practice |
@@ -88,7 +88,7 @@ Final Year · 7th Semester · CGPA 8.5 / 10 · Expected Graduation 2027
 | **Languages** | Python · SQL · JavaScript / TypeScript | |
 | **AI / ML** | scikit-learn · pandas · NumPy · Jupyter · Gemini API | Deep learning |
 | **Computer Vision** | OpenCV · Eye Aspect Ratio · CNN-based approach | |
-| **Backend** | Flask · MySQL | Django (PrepPitch backend) |
+| **Backend** | Flask · MySQL | Django (PrepPitch, in development) |
 | **Data Visualization** | Matplotlib · Seaborn | |
 | **Web** | React · Next.js · Vite · Tailwind CSS | |
 | **Tools** | Git · GitHub · VS Code | |
@@ -103,7 +103,7 @@ Artificial intelligence · machine learning · Python · backend development · 
 
 ### `08 / CURRENT FOCUS`
 
-- **PrepPitch:** building the Django/Python backend: interview flow, question engine, answer evaluation, speech-to-text, and adaptive interviews
+- **PrepPitch:** developing the main application with Django/Python (backend, interview flow, question engine, answer evaluation, speech-to-text, and adaptive interviews), not yet public
 - **Machine learning:** building complete, reproducible notebooks with proper evaluation
 - **Computer vision:** webcam-based drowsiness detection with OpenCV
 - **Automotive AI:** exploring how vision and ML apply to driver and vehicle systems
