@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
-  <title id="title">VISHAK — AI Engineer · Python Developer · AI / ML</title>
-  <desc id="desc">Building intelligent systems with Python, Machine Learning and Computer Vision.</desc>
+  <title id="title">V VISHAK — AI Engineer · Python Developer · AI / ML</title>
+  <desc id="desc">Building intelligent systems with Python, AI/ML, backend engineering and computer vision.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#050505"/>
@@ -31,9 +31,9 @@
 
   <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" text-anchor="middle">
     <text x="603" y="86" font-size="13" letter-spacing="6" fill="#A9A39A">B.TECH · ARTIFICIAL INTELLIGENCE &amp; DATA SCIENCE</text>
-    <text x="615" y="190" font-size="92" font-weight="300" letter-spacing="30" fill="#F5F1E8">VISHAK</text>
+    <text x="613" y="188" font-size="84" font-weight="300" letter-spacing="26" fill="#F5F1E8">V VISHAK</text>
     <rect x="450" y="222" width="300" height="1.2" fill="url(#rule)"/>
     <text x="603" y="262" font-size="17" font-weight="600" letter-spacing="7" fill="#C9A227">AI ENGINEER  ·  PYTHON DEVELOPER  ·  AI / ML</text>
-    <text x="600" y="308" font-size="17" letter-spacing="0.6" fill="#A9A39A">Building intelligent systems with Python, Machine Learning &amp; Computer Vision.</text>
+    <text x="600" y="308" font-size="17" letter-spacing="0.6" fill="#A9A39A">Building intelligent systems with Python, AI/ML, backend engineering &amp; computer vision.</text>
   </g>
 </svg>

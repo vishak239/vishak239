@@ -1,112 +1,119 @@
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="VISHAK — AI Engineer · Python Developer · AI / ML. Building intelligent systems with Python, Machine Learning and Computer Vision." />
+  <img src="assets/hero.svg" width="100%" alt="V VISHAK — AI Engineer · Python Developer · AI / ML. Building intelligent systems with Python, AI/ML, backend engineering and computer vision." />
 </p>
 
 <p align="center">
-  <b>V Vishak</b> · B.Tech Artificial Intelligence &amp; Data Science · Loyola Institute of Technology and Science<br>
-  Final Year · 7th Semester · Expected Graduation 2027
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/vishak3416">LinkedIn</a>
-  &nbsp;·&nbsp;
   <a href="mailto:vishak3416@gmail.com">Email</a>
   &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/vishak3416">LinkedIn</a>
+  &nbsp;·&nbsp;
   <a href="https://github.com/vishak239/Prep-pitch">PrepPitch</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/vishak239/vishak-portfolio">Portfolio source</a>
 </p>
 
 <br>
 
-### `01 / ABOUT`
+### `01 / CURRENTLY`
 
-I’m Vishak, a final-year Artificial Intelligence & Data Science student who builds practical AI systems and Python-based applications. I work as a Python Developer / Python Developer Intern, and I’m moving toward AI engineering through machine learning, computer vision, and backend development.
+- Final-year **B.Tech Artificial Intelligence & Data Science** student at Loyola Institute of Technology and Science
+- **Python Developer** at **Nexvra Solutions**, working on Python, backend development, databases, APIs, testing and debugging
+- Building **PrepPitch**, an AI-powered mock-interview platform, as its owner and developer
+- Building machine learning and computer vision projects in Python
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-### `02 / CURRENTLY BUILDING`
+### `02 / FEATURED PROJECT`
 
-#### PrepPitch — interview-practice platform
+#### [PrepPitch](https://github.com/vishak239/Prep-pitch) — AI-powered mock-interview platform
 
-PrepPitch is an interview-practice platform I am developing. It has a public React/TypeScript prototype, and I am separately developing the main application with Django/Python, which is in development and not yet public.
+A practice platform for students: set up an interview for a target role, answer questions one at a time, and get structured feedback.
 
-**Public prototype** · [github.com/vishak239/Prep-pitch](https://github.com/vishak239/Prep-pitch) · React · TypeScript · Vite · Tailwind CSS · Gemini API
+**Public prototype** — React · TypeScript · Vite · Tailwind CSS · Gemini API · [view repository](https://github.com/vishak239/Prep-pitch)
 
 ```text
-Interview setup ·········· built   type, difficulty, role, job description
-Question engine ·········· built   Gemini when a key is set, otherwise a built-in question bank
-Mock interview ··········· built   timed questions read aloud with browser text-to-speech
-Answers ·················· built   typed answers
-Follow-up ················ built   one follow-up question per answer
-Evaluation & feedback ···· built   Gemini rubric or rule-based scoring · STAR checklist
-Progress ················· built   charts and session history in the browser (localStorage)
+Interview setup ·········· interview type, difficulty, role, job description
+Question engine ·········· Gemini API when a key is set, otherwise a built-in question bank
+Mock interview ··········· timed questions, read aloud with browser text-to-speech
+Follow-up ················ up to one follow-up question per answer
+Evaluation & feedback ···· Gemini rubric or rule-based scoring, STAR checklist, per-question review
+Progress ················· charts and session history saved in the browser (localStorage)
 ```
 
-**Current development** · Django / Python · *in development, not yet public*
+**Current development** — Django / Python · *in development, not yet public*
 
-Backend · interview flow · question engine · answer evaluation · speech-to-text · adaptive interviews
+The main application, with its own interview flow, question engine, answer evaluation, speech-to-text and adaptive interview logic.
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ### `03 / SELECTED PROJECTS`
 
-| Project | What it is | Stack | Status |
-|---|---|---|---|
-| [**PrepPitch**](https://github.com/vishak239/Prep-pitch) | Interview-practice web app | React · TypeScript · Gemini API | Public prototype · Django version in development |
-| **Driver Drowsiness Detection** | Webcam-based drowsiness detection using the Eye Aspect Ratio and a CNN-based approach | Python · OpenCV | Repository not yet public |
-| [**House Price Prediction**](https://github.com/vishak239/house-price-prediction) | Compares Linear Regression and Random Forest, evaluated with MAE | Python · pandas · scikit-learn | Phase 1 notebook |
-| [**Multiple Linear Regression**](https://github.com/vishak239/Multiple-Linear-regression-practices) | Multi-feature regression experiments | Python · NumPy · scikit-learn | Practice |
-| [**Portfolio**](https://github.com/vishak239/vishak-portfolio) | Personal portfolio site | Next.js · TypeScript · Tailwind CSS | Built |
-
-**Foundations:** [NumPy](https://github.com/vishak239/numpy-practice) · [Matplotlib](https://github.com/vishak239/Matplotlib_practices) · [Seaborn](https://github.com/vishak239/Seaborn_practices) · [Python practice](https://github.com/vishak239/python-practice) (Tkinter, MySQL, Flask)
+| Project | What it does | Stack |
+|---|---|---|
+| [**PrepPitch**](https://github.com/vishak239/Prep-pitch) | Mock-interview practice web app (public prototype) | React · TypeScript · Gemini API |
+| [**House Price Prediction**](https://github.com/vishak239/house-price-prediction) | Predicts house sale prices and compares Linear Regression with Random Forest using MAE | Python · pandas · scikit-learn |
+| [**Multiple Linear Regression**](https://github.com/vishak239/Multiple-Linear-regression-practices) | Fits multi-feature regression models on small datasets | Python · NumPy · scikit-learn |
+| [**Python Practice**](https://github.com/vishak239/python-practice) | Python exercises, Tkinter GUIs, MySQL scripts and a small Flask JSON endpoint | Python · Tkinter · MySQL · Flask |
+| [**Portfolio**](https://github.com/vishak239/vishak-portfolio) | Personal portfolio site | Next.js · React · TypeScript · Tailwind CSS |
+| [**Data Visualization**](https://github.com/vishak239/Seaborn_practices) | Seaborn and [Matplotlib](https://github.com/vishak239/Matplotlib_practices) chart exercises, plus [NumPy](https://github.com/vishak239/numpy-practice) practice | Python · Seaborn · Matplotlib · pandas · NumPy |
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ### `04 / EXPERIENCE`
 
-| Role | Organisation | Details |
-|---|---|---|
-| **Python Developer / Python Developer Intern** | Nexvra Solutions | September 2026 – Present · Marthandam · Python, backend development, databases, APIs, testing and debugging · independently secured through my own job search |
-| **Python Training / Machine Learning Intern** | IT Desk | Python course and machine learning internship |
-| **Deep Learning Intern** | G-Tech | Deep learning internship |
-| **Internship / Student Role** | MyInspection | — |
+**Python Developer / Python Developer Intern** · Nexvra Solutions<br>
+September 2026 — Present · Marthandam<br>
+Python, backend development, databases, APIs, testing and debugging. Secured independently through my own job search.
+
+**Internships**<br>
+Python Training / Machine Learning Intern · IT Desk<br>
+Deep Learning Intern · G-Tech<br>
+Internship / Student Role · MyInspection
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ### `05 / EDUCATION`
 
-**B.Tech Artificial Intelligence & Data Science** · Loyola Institute of Technology and Science<br>
-Final Year · 7th Semester · CGPA 8.5 / 10 · Expected Graduation 2027
+**Loyola Institute of Technology and Science**<br>
+B.Tech — Artificial Intelligence & Data Science<br>
+Final Year / 7th Semester · Expected 2027 · CGPA 8.5 / 10
 
-**School** · Vidya Jyothi Matriculation Higher Secondary School · State Board
-
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
-
-### `06 / TECHNICAL STACK`
-
-|  | Working with | Learning / in development |
-|---|---|---|
-| **Languages** | Python · SQL · JavaScript / TypeScript | |
-| **AI / ML** | scikit-learn · pandas · NumPy · Jupyter · Gemini API | Deep learning |
-| **Computer Vision** | OpenCV · Eye Aspect Ratio · CNN-based approach | |
-| **Backend** | Flask · MySQL | Django (PrepPitch, in development) |
-| **Data Visualization** | Matplotlib · Seaborn | |
-| **Web** | React · Next.js · Vite · Tailwind CSS | |
-| **Tools** | Git · GitHub · VS Code | |
+**Vidya Jyothi Matriculation Higher Secondary School** · State Board
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-### `07 / ENGINEERING INTERESTS`
+### `06 / TECHNICAL AREAS`
 
-Artificial intelligence · machine learning · Python · backend development · computer vision · automotive AI · data science · AI-powered applications
+| Area | Working with |
+|---|---|
+| **Languages** | Python · TypeScript · JavaScript · SQL |
+| **AI / ML** | Machine learning with scikit-learn (regression models) · Gemini API integration · deep learning (learning; CNN-based approach in drowsiness detection) |
+| **Computer Vision** | OpenCV · Eye Aspect Ratio (EAR) · CNN-based approach |
+| **Backend** | Python · Flask · MySQL · APIs and databases · Django (PrepPitch, in development) |
+| **Data** | pandas · NumPy · Matplotlib · Seaborn · Jupyter |
+| **Web** | React · Next.js · Vite · Tailwind CSS |
+| **Tools** | Git · GitHub · VS Code |
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-### `08 / CURRENT FOCUS`
+### `07 / CURRENT BUILD`
 
-- **PrepPitch:** developing the main application with Django/Python (backend, interview flow, question engine, answer evaluation, speech-to-text, and adaptive interviews), not yet public
-- **Machine learning:** building complete, reproducible notebooks with proper evaluation
-- **Computer vision:** webcam-based drowsiness detection with OpenCV
-- **Automotive AI:** exploring how vision and ML apply to driver and vehicle systems
+**PrepPitch — Django / Python** · *in development*
+
+- Interview flow
+- Question engine
+- Answer evaluation
+- Speech-to-text
+- Adaptive interview logic
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+
+### `08 / AUTOMOTIVE AI`
+
+An engineering interest I’m building toward, not professional automotive experience.
+
+- **Driver monitoring:** a webcam-based drowsiness detection project with OpenCV, the Eye Aspect Ratio, and a CNN-based approach (repository not yet public)
+- **Directions I’m exploring:** computer vision for intelligent vehicle systems, and AI-assisted automation
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
