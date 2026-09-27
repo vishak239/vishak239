@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-labelledby="t d">
   <title id="t">PrepPitch — interview-practice platform</title>
-  <desc id="d">Public prototype (React, TypeScript, Vite, Tailwind CSS, Gemini API) with built stages: Interview setup, Question engine, Mock interview, Answers, Follow-up, Evaluation, Progress. Main application in Django/Python, in development and not yet public: Backend, Interview flow, Question engine, Answer evaluation, Speech-to-text, Adaptive interviews.</desc>
+  <desc id="d">Public prototype (React, TypeScript, Vite, Tailwind CSS, Gemini API, Web Speech API) with built stages: Interview setup, Question engine, Mock interview, Answers, Follow-up, Evaluation, Progress. Main application in Django/Python, in development and not yet public: Django / Python backend, Interview flow, Question engine, Answer evaluation, Speech-to-text, Adaptive interviews.</desc>
   <style>
-    .sans { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .sans { font-family: 'Manrope', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .serif { font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; }
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
     @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
     @keyframes flow { to { stroke-dashoffset: -40; } }
-    @keyframes shimmer { 0% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
     .pulse { animation: pulse 2.4s ease-in-out infinite; }
     .flow { stroke-dasharray: 4 6; animation: flow 2.2s linear infinite; }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
@@ -30,7 +30,7 @@
       <path d="M32 0H0V32" fill="none" stroke="#D7263D" stroke-opacity=".05"/>
     </pattern>
     <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#D7263D" stop-opacity="0"/><stop offset=".5" stop-color="#D7263D" stop-opacity=".09"/><stop offset="1" stop-color="#D7263D" stop-opacity="0"/>
+      <stop offset="0" stop-color="#D7263D" stop-opacity="0"/><stop offset=".5" stop-color="#D7263D" stop-opacity=".1"/><stop offset="1" stop-color="#D7263D" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="row"><rect width="500" height="44" rx="10"/></clipPath>
     <clipPath id="clip"><rect width="1200" height="610" rx="16"/></clipPath>
@@ -41,20 +41,21 @@
   <rect width="1200" height="610" rx="16" fill="url(#grid)" opacity=".7"/>
   <g clip-path="url(#clip)">
   <g transform="translate(44 42) scale(1.2)" fill="none" stroke="#FF4D5E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="22" height="18" rx="3"/><path d="M1 8h22M5 5.5h.01M8 5.5h.01"/><path d="M6 13l3 2.5L6 18M12 18h6"/></g>
-  <text x="84" y="62" class="mono" font-size="12" letter-spacing="3" fill="#D7263D">FLAGSHIP PROJECT</text>
-  <text x="42" y="116" class="sans" font-size="44" font-weight="300" letter-spacing="2" fill="#F7F2F2">PrepPitch</text>
-  <text x="300" y="104" class="sans" font-size="17" fill="#ABA3A3">An interview-practice platform: set up a role, answer timed</text>
-  <text x="300" y="128" class="sans" font-size="17" fill="#ABA3A3">questions, get feedback, and track progress over time.</text>
-  <rect x="42" y="150" width="1116" height="1" fill="#3A1517"/>
+  <text x="84" y="62" class="mono" font-size="12" letter-spacing="3" fill="#D7263D">FEATURED PROJECT</text>
+  <text x="42" y="118" class="serif" font-size="48" fill="#F7F2F2">PrepPitch</text>
+  <text x="300" y="92" class="serif" font-size="15" font-style="italic" letter-spacing="1" fill="#FF4D5E">Practice until your pitch is perfect.</text>
+  <text x="300" y="116" class="sans" font-size="16" fill="#ABA3A3">A mock-interview practice app for students that I own and develop:</text>
+  <text x="300" y="138" class="sans" font-size="16" fill="#ABA3A3">set up a role, answer timed questions, get structured feedback.</text>
+  <rect x="42" y="156" width="1116" height="1" fill="#3A1517"/>
 
-  <text x="42" y="184" class="mono" font-size="12" letter-spacing="2.5" fill="#FF4D5E">PUBLIC PROTOTYPE</text>
-  <text x="200" y="184" class="mono" font-size="12" fill="#6E6566">React · TypeScript · Vite · Tailwind · Gemini API</text>
+  <text x="42" y="186" class="mono" font-size="12" letter-spacing="2.5" fill="#FF4D5E">PUBLIC PROTOTYPE</text>
+  <text x="200" y="186" class="mono" font-size="12" fill="#6E6566">React · TypeScript · Vite · Tailwind · Gemini API</text>
   <path d="M72 214V514" stroke="#D7263D" stroke-opacity=".6" stroke-width="1.4" class="flow"/>
   <g>
       <circle cx="72" cy="214" r="7" fill="#050505" stroke="#D7263D" stroke-width="1.4"/>
       <circle cx="72" cy="214" r="3" fill="#FF4D5E"/>
       <text x="96" y="212" class="sans" font-size="16.5" font-weight="600" fill="#F7F2F2">Interview setup</text>
-      <text x="96" y="231" class="sans" font-size="13" fill="#ABA3A3">type, difficulty, role, job description</text>
+      <text x="96" y="231" class="sans" font-size="13" fill="#ABA3A3">type, difficulty, role and company, practice mode</text>
       <g>
     <rect x="533.5" y="203" width="62.5" height="22" rx="11" fill="none" fill-opacity="0" stroke="#D7263D" stroke-opacity="0.6"/>
     <text x="564.75" y="218" class="mono" font-size="11" letter-spacing="1.5" fill="#FF4D5E" text-anchor="middle" font-weight="600">BUILT</text>
@@ -63,7 +64,7 @@
       <circle cx="72" cy="264" r="7" fill="#050505" stroke="#D7263D" stroke-width="1.4"/>
       <circle cx="72" cy="264" r="3" fill="#FF4D5E"/>
       <text x="96" y="262" class="sans" font-size="16.5" font-weight="600" fill="#F7F2F2">Question engine</text>
-      <text x="96" y="281" class="sans" font-size="13" fill="#ABA3A3">Gemini, or a built-in question bank</text>
+      <text x="96" y="281" class="sans" font-size="13" fill="#ABA3A3">Gemini when a key is set, or a built-in question set</text>
       <g>
     <rect x="533.5" y="253" width="62.5" height="22" rx="11" fill="none" fill-opacity="0" stroke="#D7263D" stroke-opacity="0.6"/>
     <text x="564.75" y="268" class="mono" font-size="11" letter-spacing="1.5" fill="#FF4D5E" text-anchor="middle" font-weight="600">BUILT</text>
@@ -72,7 +73,7 @@
       <circle cx="72" cy="314" r="7" fill="#050505" stroke="#D7263D" stroke-width="1.4"/>
       <circle cx="72" cy="314" r="3" fill="#FF4D5E"/>
       <text x="96" y="312" class="sans" font-size="16.5" font-weight="600" fill="#F7F2F2">Mock interview</text>
-      <text x="96" y="331" class="sans" font-size="13" fill="#ABA3A3">timed questions read aloud (TTS)</text>
+      <text x="96" y="331" class="sans" font-size="13" fill="#ABA3A3">timed questions read aloud (text-to-speech)</text>
       <g>
     <rect x="533.5" y="303" width="62.5" height="22" rx="11" fill="none" fill-opacity="0" stroke="#D7263D" stroke-opacity="0.6"/>
     <text x="564.75" y="318" class="mono" font-size="11" letter-spacing="1.5" fill="#FF4D5E" text-anchor="middle" font-weight="600">BUILT</text>
@@ -81,7 +82,7 @@
       <circle cx="72" cy="364" r="7" fill="#050505" stroke="#D7263D" stroke-width="1.4"/>
       <circle cx="72" cy="364" r="3" fill="#FF4D5E"/>
       <text x="96" y="362" class="sans" font-size="16.5" font-weight="600" fill="#F7F2F2">Answers</text>
-      <text x="96" y="381" class="sans" font-size="13" fill="#ABA3A3">typed answers</text>
+      <text x="96" y="381" class="sans" font-size="13" fill="#ABA3A3">typed answers with question and answer timers</text>
       <g>
     <rect x="533.5" y="353" width="62.5" height="22" rx="11" fill="none" fill-opacity="0" stroke="#D7263D" stroke-opacity="0.6"/>
     <text x="564.75" y="368" class="mono" font-size="11" letter-spacing="1.5" fill="#FF4D5E" text-anchor="middle" font-weight="600">BUILT</text>
@@ -99,7 +100,7 @@
       <circle cx="72" cy="464" r="7" fill="#050505" stroke="#D7263D" stroke-width="1.4"/>
       <circle cx="72" cy="464" r="3" fill="#FF4D5E"/>
       <text x="96" y="462" class="sans" font-size="16.5" font-weight="600" fill="#F7F2F2">Evaluation</text>
-      <text x="96" y="481" class="sans" font-size="13" fill="#ABA3A3">Gemini rubric or rules · STAR checklist</text>
+      <text x="96" y="481" class="sans" font-size="13" fill="#ABA3A3">Gemini rubric or rule-based scoring · STAR checklist</text>
       <g>
     <rect x="533.5" y="453" width="62.5" height="22" rx="11" fill="none" fill-opacity="0" stroke="#D7263D" stroke-opacity="0.6"/>
     <text x="564.75" y="468" class="mono" font-size="11" letter-spacing="1.5" fill="#FF4D5E" text-anchor="middle" font-weight="600">BUILT</text>
@@ -108,7 +109,7 @@
       <circle cx="72" cy="514" r="7" fill="#050505" stroke="#D7263D" stroke-width="1.4"/>
       <circle cx="72" cy="514" r="3" fill="#FF4D5E"/>
       <text x="96" y="512" class="sans" font-size="16.5" font-weight="600" fill="#F7F2F2">Progress</text>
-      <text x="96" y="531" class="sans" font-size="13" fill="#ABA3A3">charts and session history</text>
+      <text x="96" y="531" class="sans" font-size="13" fill="#ABA3A3">sessions saved in the browser and charted</text>
       <g>
     <rect x="533.5" y="503" width="62.5" height="22" rx="11" fill="none" fill-opacity="0" stroke="#D7263D" stroke-opacity="0.6"/>
     <text x="564.75" y="518" class="mono" font-size="11" letter-spacing="1.5" fill="#FF4D5E" text-anchor="middle" font-weight="600">BUILT</text>
@@ -116,12 +117,12 @@
     </g>
 
   <path d="M624 172V570" stroke="#3A1517"/>
-  <text x="652" y="184" class="mono" font-size="12" letter-spacing="2.5" fill="#FF4D5E">MAIN APPLICATION</text>
-  <text x="818" y="184" class="mono" font-size="12" fill="#6E6566">Django / Python · not yet public</text>
+  <text x="652" y="186" class="mono" font-size="12" letter-spacing="2.5" fill="#FF4D5E">MAIN APPLICATION</text>
+  <text x="818" y="186" class="mono" font-size="12" fill="#6E6566">Django / Python · not yet public</text>
   <g transform="translate(652 192)">
       <rect width="500" height="44" rx="10" fill="#100C0D" stroke="#3A1517"/>
       <g clip-path="url(#row)"><rect width="500" height="44" fill="url(#shine)" class="shine" style="animation-delay:0.0s"/></g>
-      <text x="20" y="28" class="sans" font-size="16" fill="#F7F2F2">Backend</text>
+      <text x="20" y="28" class="sans" font-size="16" fill="#F7F2F2">Django / Python backend</text>
     </g>
     <g>
     <rect x="1000.6" y="204" width="135.39999999999998" height="22" rx="11" fill="none" fill-opacity="0" stroke="#D7263D" stroke-opacity="0.6" stroke-dasharray="3 3"/>

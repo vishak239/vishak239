@@ -2,11 +2,11 @@
   <title id="t">V Vishak monogram</title>
   <desc id="d"></desc>
   <style>
-    .sans { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .sans { font-family: 'Manrope', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .serif { font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; }
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
     @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
     @keyframes flow { to { stroke-dashoffset: -40; } }
-    @keyframes shimmer { 0% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
     .pulse { animation: pulse 2.4s ease-in-out infinite; }
     .flow { stroke-dasharray: 4 6; animation: flow 2.2s linear infinite; }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
@@ -30,13 +30,16 @@
   </defs>
   <rect width="460" height="460" fill="url(#bg)"/>
   <rect width="460" height="460" fill="url(#grid)"/>
-  <circle cx="230" cy="230" r="170" fill="#D7263D" fill-opacity=".08"/>
+  <circle cx="230" cy="230" r="170" fill="#D7263D" fill-opacity=".07"/>
   
   <g stroke="#D7263D" stroke-opacity=".55" stroke-width="1.2" fill="none">
     <path d="M70 104V70H104"/><path d="M356 70H390V104"/>
     <path d="M70 356V390H104"/><path d="M356 390H390V356"/>
   </g>
-  <path d="M150 150 L230 318 L310 150" fill="none" stroke="#D7263D" stroke-width="30" stroke-linejoin="miter" stroke-linecap="square"/>
-  <path d="M196 150 L230 222 L264 150" fill="none" stroke="#F7F2F2" stroke-width="10" stroke-linecap="square" opacity=".9"/>
-  <text x="230" y="378" class="mono" font-size="16" letter-spacing="8" fill="#ABA3A3" text-anchor="middle">VISHAK</text>
+  <g transform="translate(80 70) scale(3)" fill="none">
+    <path d="M26 28L50 78L74 28" stroke="#D7263D" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M37 50L63 50" stroke="#FF4D5E" stroke-width="2" stroke-dasharray="2 3"/>
+    <circle cx="50" cy="78" r="3.5" fill="#FF4D5E"/>
+  </g>
+  <text x="230" y="392" class="mono" font-size="15" letter-spacing="8" fill="#ABA3A3" text-anchor="middle">VISHAK</text>
 </svg>

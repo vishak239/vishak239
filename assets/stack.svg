@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="484" viewBox="0 0 1200 484" role="img" aria-labelledby="t d">
-  <title id="t">Technical stack</title>
-  <desc id="d">LANGUAGES: Python, SQL, JavaScript, TypeScript; AI / ML: scikit-learn, pandas, NumPy, Jupyter, Gemini API (learning: Deep learning); COMPUTER VISION: OpenCV, Eye Aspect Ratio, CNN-based approach; BACKEND: Flask, MySQL (learning: Django); DATA VIZ: Matplotlib, Seaborn; WEB: React, Next.js, Vite, Tailwind CSS; TOOLS: Git, GitHub, VS Code</desc>
+  <title id="t">Skills</title>
+  <desc id="d">PROGRAMMING: Python, TypeScript, JavaScript, SQL, HTML, CSS; AI &amp; ML: scikit-learn, Regression models, Gemini API (learning: Deep learning); COMPUTER VISION: OpenCV, Eye Aspect Ratio (EAR), CNNs; DATA SCIENCE: NumPy, pandas, Matplotlib, Seaborn, Jupyter; BACKEND: Flask, MySQL (learning: Django); WEB: React, Next.js, Vite, Tailwind CSS; TOOLING: Git, GitHub, VS Code</desc>
   <style>
-    .sans { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .sans { font-family: 'Manrope', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .serif { font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; }
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
     @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
     @keyframes flow { to { stroke-dashoffset: -40; } }
-    @keyframes shimmer { 0% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
     .pulse { animation: pulse 2.4s ease-in-out infinite; }
     .flow { stroke-dasharray: 4 6; animation: flow 2.2s linear infinite; }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
@@ -31,46 +31,46 @@
 
   <rect width="1200" height="484" rx="16" fill="url(#bg)"/>
   <rect x=".5" y=".5" width="1199" height="483" rx="16" fill="none" stroke="#26100F"/>
-  <text x="44" y="48" class="mono" font-size="12" letter-spacing="2.5" fill="#ABA3A3">WORKING WITH / LEARNING</text>
-  <g transform="translate(870 30)">
+  <text x="44" y="48" class="serif" font-size="17" font-style="italic" fill="#ABA3A3">The tools and techniques I work with across applied AI, computer vision and backend development.</text>
+  <g transform="translate(910 32)">
     <rect width="30" height="20" rx="10" fill="#100C0D" stroke="#D7263D" stroke-opacity=".3"/>
     <text x="40" y="15" class="sans" font-size="13.5" fill="#ABA3A3">working with</text>
     <rect x="150" width="30" height="20" rx="10" fill="none" stroke="#D7263D" stroke-opacity=".7" stroke-dasharray="4 4"/>
     <text x="190" y="15" class="sans" font-size="13.5" fill="#ABA3A3">learning</text>
   </g>
-  <text x="44" y="92" class="mono" font-size="12" letter-spacing="2.5" fill="#D7263D">LANGUAGES</text>
+  <text x="44" y="92" class="mono" font-size="12" letter-spacing="2.5" fill="#D7263D">PROGRAMMING</text>
   
   <g transform="translate(270 70)">
       <rect width="80.4" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
       <text x="40.2" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">Python</text>
     </g><g transform="translate(360.4 70)">
-      <rect width="55.2" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
-      <text x="27.6" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">SQL</text>
-    </g><g transform="translate(425.59999999999997 70)">
-      <rect width="114" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
-      <text x="57" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">JavaScript</text>
-    </g><g transform="translate(549.5999999999999 70)">
       <rect width="114" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
       <text x="57" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">TypeScript</text>
+    </g><g transform="translate(484.4 70)">
+      <rect width="114" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
+      <text x="57" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">JavaScript</text>
+    </g><g transform="translate(608.4 70)">
+      <rect width="55.2" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
+      <text x="27.6" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">SQL</text>
+    </g><g transform="translate(673.6 70)">
+      <rect width="63.6" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
+      <text x="31.8" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">HTML</text>
+    </g><g transform="translate(747.2 70)">
+      <rect width="55.2" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
+      <text x="27.6" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">CSS</text>
     </g>
-  <text x="44" y="146" class="mono" font-size="12" letter-spacing="2.5" fill="#D7263D">AI / ML</text>
+  <text x="44" y="146" class="mono" font-size="12" letter-spacing="2.5" fill="#D7263D">AI &amp; ML</text>
   <rect x="44" y="108" width="1112" height="1" fill="#26100F"/>
   <g transform="translate(270 124)">
       <rect width="130.8" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
       <text x="65.4" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">scikit-learn</text>
     </g><g transform="translate(410.8 124)">
-      <rect width="80.4" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
-      <text x="40.2" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">pandas</text>
-    </g><g transform="translate(501.20000000000005 124)">
-      <rect width="72" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
-      <text x="36" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">NumPy</text>
-    </g><g transform="translate(583.2 124)">
-      <rect width="88.80000000000001" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
-      <text x="44.400000000000006" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">Jupyter</text>
-    </g><g transform="translate(682 124)">
+      <rect width="172.8" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
+      <text x="86.4" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">Regression models</text>
+    </g><g transform="translate(593.6 124)">
       <rect width="114" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
       <text x="57" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">Gemini API</text>
-    </g><g transform="translate(806 124)">
+    </g><g transform="translate(717.6 124)">
       <rect width="139.2" height="34" rx="17" fill="none" stroke="#D7263D" stroke-opacity="0.7" stroke-dasharray="4 4"/>
       <text x="69.6" y="22" class="sans" font-size="15" fill="#FF4D5E" text-anchor="middle">Deep learning</text>
     </g>
@@ -80,32 +80,41 @@
       <rect width="80.4" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
       <text x="40.2" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">OpenCV</text>
     </g><g transform="translate(360.4 178)">
-      <rect width="164.4" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
-      <text x="82.2" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">Eye Aspect Ratio</text>
-    </g><g transform="translate(534.8 178)">
-      <rect width="181.20000000000002" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
-      <text x="90.60000000000001" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">CNN-based approach</text>
+      <rect width="214.8" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
+      <text x="107.4" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">Eye Aspect Ratio (EAR)</text>
+    </g><g transform="translate(585.2 178)">
+      <rect width="63.6" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
+      <text x="31.8" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">CNNs</text>
     </g>
-  <text x="44" y="254" class="mono" font-size="12" letter-spacing="2.5" fill="#D7263D">BACKEND</text>
+  <text x="44" y="254" class="mono" font-size="12" letter-spacing="2.5" fill="#D7263D">DATA SCIENCE</text>
   <rect x="44" y="216" width="1112" height="1" fill="#26100F"/>
   <g transform="translate(270 232)">
       <rect width="72" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
-      <text x="36" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">Flask</text>
+      <text x="36" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">NumPy</text>
     </g><g transform="translate(352 232)">
-      <rect width="72" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
-      <text x="36" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">MySQL</text>
-    </g><g transform="translate(434 232)">
-      <rect width="80.4" height="34" rx="17" fill="none" stroke="#D7263D" stroke-opacity="0.7" stroke-dasharray="4 4"/>
-      <text x="40.2" y="22" class="sans" font-size="15" fill="#FF4D5E" text-anchor="middle">Django</text>
-    </g>
-  <text x="44" y="308" class="mono" font-size="12" letter-spacing="2.5" fill="#D7263D">DATA VIZ</text>
-  <rect x="44" y="270" width="1112" height="1" fill="#26100F"/>
-  <g transform="translate(270 286)">
+      <rect width="80.4" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
+      <text x="40.2" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">pandas</text>
+    </g><g transform="translate(442.4 232)">
       <rect width="114" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
       <text x="57" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">Matplotlib</text>
-    </g><g transform="translate(394 286)">
+    </g><g transform="translate(566.4 232)">
       <rect width="88.80000000000001" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
       <text x="44.400000000000006" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">Seaborn</text>
+    </g><g transform="translate(665.2 232)">
+      <rect width="88.80000000000001" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
+      <text x="44.400000000000006" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">Jupyter</text>
+    </g>
+  <text x="44" y="308" class="mono" font-size="12" letter-spacing="2.5" fill="#D7263D">BACKEND</text>
+  <rect x="44" y="270" width="1112" height="1" fill="#26100F"/>
+  <g transform="translate(270 286)">
+      <rect width="72" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
+      <text x="36" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">Flask</text>
+    </g><g transform="translate(352 286)">
+      <rect width="72" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
+      <text x="36" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">MySQL</text>
+    </g><g transform="translate(434 286)">
+      <rect width="80.4" height="34" rx="17" fill="none" stroke="#D7263D" stroke-opacity="0.7" stroke-dasharray="4 4"/>
+      <text x="40.2" y="22" class="sans" font-size="15" fill="#FF4D5E" text-anchor="middle">Django</text>
     </g>
   <text x="44" y="362" class="mono" font-size="12" letter-spacing="2.5" fill="#D7263D">WEB</text>
   <rect x="44" y="324" width="1112" height="1" fill="#26100F"/>
@@ -122,7 +131,7 @@
       <rect width="130.8" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>
       <text x="65.4" y="22" class="sans" font-size="15" fill="#F7F2F2" text-anchor="middle">Tailwind CSS</text>
     </g>
-  <text x="44" y="416" class="mono" font-size="12" letter-spacing="2.5" fill="#D7263D">TOOLS</text>
+  <text x="44" y="416" class="mono" font-size="12" letter-spacing="2.5" fill="#D7263D">TOOLING</text>
   <rect x="44" y="378" width="1112" height="1" fill="#26100F"/>
   <g transform="translate(270 394)">
       <rect width="55.2" height="34" rx="17" fill="#100C0D" stroke="#D7263D" stroke-opacity="0.3"/>

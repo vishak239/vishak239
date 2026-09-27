@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" viewBox="0 0 600 250" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="270" viewBox="0 0 600 270" role="img" aria-labelledby="t d">
   <title id="t">Multiple Linear Regression — PRACTICE</title>
-  <desc id="d">Multi-feature regression experiments fitted with NumPy and scikit-learn. Stack: Python · NumPy · scikit-learn.</desc>
+  <desc id="d">Regression with more than one feature Practice notebook fitting multiple linear regression models with NumPy and scikit-learn on small hand-written datasets. Stack: Python · NumPy · scikit-learn.</desc>
   <style>
-    .sans { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .sans { font-family: 'Manrope', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .serif { font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; }
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
     @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
     @keyframes flow { to { stroke-dashoffset: -40; } }
-    @keyframes shimmer { 0% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
     .pulse { animation: pulse 2.4s ease-in-out infinite; }
     .flow { stroke-dasharray: 4 6; animation: flow 2.2s linear infinite; }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
@@ -29,8 +29,8 @@
     </pattern>
   </defs>
 
-  <rect width="600" height="250" rx="16" fill="url(#bg)"/>
-  <rect x=".5" y=".5" width="599" height="249" rx="16" fill="none" stroke="#26100F"/>
+  <rect width="600" height="270" rx="16" fill="url(#bg)"/>
+  <rect x=".5" y=".5" width="599" height="269" rx="16" fill="none" stroke="#26100F"/>
   <rect x="32" y="0" width="56" height="2" fill="#D7263D"/>
   <g transform="translate(32 30) scale(1)" fill="none" stroke="#FF4D5E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 21h20M2 21V3"/><circle cx="6" cy="16" r="1"/><circle cx="10" cy="13" r="1"/><circle cx="14" cy="11" r="1"/><circle cx="18" cy="7" r="1"/><path d="M4 18L21 5"/></g>
   <text x="66" y="47" class="mono" font-size="11.5" letter-spacing="2.5" fill="#D7263D">ML FUNDAMENTALS</text>
@@ -38,10 +38,11 @@
     <rect x="481.2" y="31" width="86.8" height="22" rx="11" fill="none" fill-opacity="0" stroke="#D7263D" stroke-opacity="0.6"/>
     <text x="524.6" y="46" class="mono" font-size="11" letter-spacing="1.5" fill="#FF4D5E" text-anchor="middle" font-weight="600">PRACTICE</text>
   </g>
-  <text x="32" y="102" class="sans" font-size="27" font-weight="600" fill="#F7F2F2">Multiple Linear Regression</text>
-  <text x="32" y="136" class="sans" font-size="16" fill="#ABA3A3">Multi-feature regression experiments fitted with NumPy and</text>
-  <text x="32" y="159" class="sans" font-size="16" fill="#ABA3A3">scikit-learn.</text>
-  <rect x="32" y="198" width="536" height="1" fill="#3A1517"/>
-  <text x="32" y="226" class="mono" font-size="12.5" letter-spacing=".5" fill="#FF4D5E">Python · NumPy · scikit-learn</text>
-  <text x="568" y="227" class="sans" font-size="18" fill="#FF4D5E" text-anchor="end">↗</text>
+  <text x="32" y="104" class="serif" font-size="30" fill="#F7F2F2">Multiple Linear Regression</text>
+  <text x="32" y="130" class="mono" font-size="11" letter-spacing="1.8" fill="#FF4D5E">REGRESSION WITH MORE THAN ONE FEATURE</text>
+  <text x="32" y="160" class="sans" font-size="16" fill="#ABA3A3">Practice notebook fitting multiple linear regression models</text>
+  <text x="32" y="183" class="sans" font-size="16" fill="#ABA3A3">with NumPy and scikit-learn on small hand-written datasets.</text>
+  <rect x="32" y="218" width="536" height="1" fill="#3A1517"/>
+  <text x="32" y="246" class="mono" font-size="12.5" letter-spacing=".5" fill="#FF4D5E">Python · NumPy · scikit-learn</text>
+  <text x="568" y="247" class="sans" font-size="18" fill="#FF4D5E" text-anchor="end">↗</text>
 </svg>

@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="t d">
   <title id="t">Quick facts</title>
-  <desc id="d">STUDYING B.Tech AI &amp; DS Loyola Institute · Final year; WORKING Python Developer Nexvra Solutions · Sep 2026 →; CGPA 8.5 / 10 7th semester; GRADUATING 2027 Expected</desc>
+  <desc id="d">STUDYING B.Tech AI &amp; DS Loyola Institute · Final year; WORKING Python Developer Nexvra Solutions · since 7 Sep 2026; CGPA 8.5 / 10 7th semester; GRADUATING 2027 Expected</desc>
   <style>
-    .sans { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .sans { font-family: 'Manrope', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .serif { font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; }
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
     @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
     @keyframes flow { to { stroke-dashoffset: -40; } }
-    @keyframes shimmer { 0% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
     .pulse { animation: pulse 2.4s ease-in-out infinite; }
     .flow { stroke-dasharray: 4 6; animation: flow 2.2s linear infinite; }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
@@ -35,28 +35,28 @@
     <rect width="265" height="102" rx="12" fill="#100C0D" stroke="#3A1517"/>
     <rect x="20" y="0" width="36" height="2" fill="#D7263D"/>
     <text x="20" y="32" class="mono" font-size="11" letter-spacing="2.5" fill="#D7263D">STUDYING</text>
-    <text x="20" y="64" class="sans" font-size="23" font-weight="600" fill="#F7F2F2">B.Tech AI &amp; DS</text>
+    <text x="20" y="64" class="serif" font-size="25" fill="#F7F2F2">B.Tech AI &amp; DS</text>
     <text x="20" y="86" class="sans" font-size="13.5" fill="#ABA3A3">Loyola Institute · Final year</text>
   </g>
   <g transform="translate(325 24)">
     <rect width="265" height="102" rx="12" fill="#100C0D" stroke="#3A1517"/>
     <rect x="20" y="0" width="36" height="2" fill="#D7263D"/>
     <text x="20" y="32" class="mono" font-size="11" letter-spacing="2.5" fill="#D7263D">WORKING</text>
-    <text x="20" y="64" class="sans" font-size="23" font-weight="600" fill="#F7F2F2">Python Developer</text>
-    <text x="20" y="86" class="sans" font-size="13.5" fill="#ABA3A3">Nexvra Solutions · Sep 2026 →</text>
+    <text x="20" y="64" class="serif" font-size="25" fill="#F7F2F2">Python Developer</text>
+    <text x="20" y="86" class="sans" font-size="13.5" fill="#ABA3A3">Nexvra Solutions · since 7 Sep 2026</text>
   </g>
   <g transform="translate(610 24)">
     <rect width="265" height="102" rx="12" fill="#100C0D" stroke="#3A1517"/>
     <rect x="20" y="0" width="36" height="2" fill="#D7263D"/>
     <text x="20" y="32" class="mono" font-size="11" letter-spacing="2.5" fill="#D7263D">CGPA</text>
-    <text x="20" y="64" class="sans" font-size="23" font-weight="600" fill="#F7F2F2">8.5 / 10</text>
+    <text x="20" y="64" class="serif" font-size="25" fill="#F7F2F2">8.5 / 10</text>
     <text x="20" y="86" class="sans" font-size="13.5" fill="#ABA3A3">7th semester</text>
   </g>
   <g transform="translate(895 24)">
     <rect width="265" height="102" rx="12" fill="#100C0D" stroke="#3A1517"/>
     <rect x="20" y="0" width="36" height="2" fill="#D7263D"/>
     <text x="20" y="32" class="mono" font-size="11" letter-spacing="2.5" fill="#D7263D">GRADUATING</text>
-    <text x="20" y="64" class="sans" font-size="23" font-weight="600" fill="#F7F2F2">2027</text>
+    <text x="20" y="64" class="serif" font-size="25" fill="#F7F2F2">2027</text>
     <text x="20" y="86" class="sans" font-size="13.5" fill="#ABA3A3">Expected</text>
   </g>
 </svg>

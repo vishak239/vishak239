@@ -2,11 +2,11 @@
   <title id="t">Education</title>
   <desc id="d">B.Tech Artificial Intelligence &amp; Data Science, Loyola Institute of Technology and Science · Final year · CGPA 8.5 / 10 · 2027; Vidya Jyothi Matriculation HSS, State Board</desc>
   <style>
-    .sans { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .sans { font-family: 'Manrope', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .serif { font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; }
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
     @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
     @keyframes flow { to { stroke-dashoffset: -40; } }
-    @keyframes shimmer { 0% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
     .pulse { animation: pulse 2.4s ease-in-out infinite; }
     .flow { stroke-dasharray: 4 6; animation: flow 2.2s linear infinite; }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
@@ -35,14 +35,14 @@
     <rect width="720" height="102" rx="12" fill="#100C0D" stroke="#3A1517"/>
     <rect x="20" y="0" width="36" height="2" fill="#D7263D"/>
     <text x="20" y="32" class="mono" font-size="11" letter-spacing="2.5" fill="#D7263D">UNIVERSITY</text>
-    <text x="20" y="62" class="sans" font-size="20" font-weight="600" fill="#F7F2F2">B.Tech Artificial Intelligence &amp; Data Science</text>
+    <text x="20" y="62" class="serif" font-size="21" fill="#F7F2F2">B.Tech Artificial Intelligence &amp; Data Science</text>
     <text x="20" y="86" class="sans" font-size="13.5" fill="#ABA3A3">Loyola Institute of Technology and Science · Final year · CGPA 8.5 / 10 · 2027</text>
   </g>
   <g transform="translate(780 24)">
     <rect width="356" height="102" rx="12" fill="#100C0D" stroke="#3A1517"/>
     <rect x="20" y="0" width="36" height="2" fill="#D7263D"/>
     <text x="20" y="32" class="mono" font-size="11" letter-spacing="2.5" fill="#D7263D">SCHOOL</text>
-    <text x="20" y="62" class="sans" font-size="20" font-weight="600" fill="#F7F2F2">Vidya Jyothi Matriculation HSS</text>
+    <text x="20" y="62" class="serif" font-size="21" fill="#F7F2F2">Vidya Jyothi Matriculation HSS</text>
     <text x="20" y="86" class="sans" font-size="13.5" fill="#ABA3A3">State Board</text>
   </g>
 </svg>

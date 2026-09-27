@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" viewBox="0 0 600 250" role="img" aria-labelledby="t d">
-  <title id="t">Portfolio — BUILT</title>
-  <desc id="d">Personal portfolio site: projects, experience and the story behind them. Stack: Next.js · TypeScript · Tailwind CSS.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="270" viewBox="0 0 600 270" role="img" aria-labelledby="t d">
+  <title id="t">Vishak — Portfolio — LIVE</title>
+  <desc id="d">An AI engineer's journey, told in acts Cinematic single-page portfolio: projects, journey, skills, experience and education, with all text in one typed data file. Stack: Next.js · React · TypeScript · Tailwind CSS.</desc>
   <style>
-    .sans { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .sans { font-family: 'Manrope', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .serif { font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; }
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
     @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
     @keyframes flow { to { stroke-dashoffset: -40; } }
-    @keyframes shimmer { 0% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
     .pulse { animation: pulse 2.4s ease-in-out infinite; }
     .flow { stroke-dasharray: 4 6; animation: flow 2.2s linear infinite; }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
@@ -29,19 +29,21 @@
     </pattern>
   </defs>
 
-  <rect width="600" height="250" rx="16" fill="url(#bg)"/>
-  <rect x=".5" y=".5" width="599" height="249" rx="16" fill="none" stroke="#26100F"/>
+  <rect width="600" height="270" rx="16" fill="url(#bg)"/>
+  <rect x=".5" y=".5" width="599" height="269" rx="16" fill="none" stroke="#26100F"/>
   <rect x="32" y="0" width="56" height="2" fill="#D7263D"/>
   <g transform="translate(32 30) scale(1)" fill="none" stroke="#FF4D5E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2c3 3.5 3 16.5 0 20M12 2c-3 3.5-3 16.5 0 20"/></g>
-  <text x="66" y="47" class="mono" font-size="11.5" letter-spacing="2.5" fill="#D7263D">WEB</text>
+  <text x="66" y="47" class="mono" font-size="11.5" letter-spacing="2.5" fill="#D7263D">PORTFOLIO</text>
   <g>
-    <rect x="505.5" y="31" width="62.5" height="22" rx="11" fill="none" fill-opacity="0" stroke="#D7263D" stroke-opacity="0.6"/>
-    <text x="536.75" y="46" class="mono" font-size="11" letter-spacing="1.5" fill="#FF4D5E" text-anchor="middle" font-weight="600">BUILT</text>
+    <rect x="513.6" y="31" width="54.4" height="22" rx="11" fill="#D7263D" fill-opacity="0.9" stroke="#D7263D" stroke-opacity="0"/>
+    <text x="540.8000000000001" y="46" class="mono" font-size="11" letter-spacing="1.5" fill="#050505" text-anchor="middle" font-weight="600">LIVE</text>
   </g>
-  <text x="32" y="102" class="sans" font-size="27" font-weight="600" fill="#F7F2F2">Portfolio</text>
-  <text x="32" y="136" class="sans" font-size="16" fill="#ABA3A3">Personal portfolio site: projects, experience and the story</text>
-  <text x="32" y="159" class="sans" font-size="16" fill="#ABA3A3">behind them.</text>
-  <rect x="32" y="198" width="536" height="1" fill="#3A1517"/>
-  <text x="32" y="226" class="mono" font-size="12.5" letter-spacing=".5" fill="#FF4D5E">Next.js · TypeScript · Tailwind CSS</text>
-  <text x="568" y="227" class="sans" font-size="18" fill="#FF4D5E" text-anchor="end">↗</text>
+  <text x="32" y="104" class="serif" font-size="30" fill="#F7F2F2">Vishak — Portfolio</text>
+  <text x="32" y="130" class="mono" font-size="11" letter-spacing="1.8" fill="#FF4D5E">AN AI ENGINEER'S JOURNEY, TOLD IN ACTS</text>
+  <text x="32" y="160" class="sans" font-size="16" fill="#ABA3A3">Cinematic single-page portfolio: projects, journey, skills,</text>
+  <text x="32" y="183" class="sans" font-size="16" fill="#ABA3A3">experience and education, with all text in one typed data</text>
+  <text x="32" y="206" class="sans" font-size="16" fill="#ABA3A3">file.</text>
+  <rect x="32" y="218" width="536" height="1" fill="#3A1517"/>
+  <text x="32" y="246" class="mono" font-size="12.5" letter-spacing=".5" fill="#FF4D5E">Next.js · React · TypeScript · Tailwind CSS</text>
+  <text x="568" y="247" class="sans" font-size="18" fill="#FF4D5E" text-anchor="end">↗</text>
 </svg>
