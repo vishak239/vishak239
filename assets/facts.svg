@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="t d">
+  <title id="t">Quick facts</title>
+  <desc id="d">STUDYING B.Tech AI &amp; DS Loyola Institute · Final year; WORKING Python Developer Nexvra Solutions · Sep 2026 →; CGPA 8.5 / 10 7th semester; GRADUATING 2027 Expected</desc>
+  <style>
+    .sans { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+    @keyframes flow { to { stroke-dashoffset: -40; } }
+    @keyframes shimmer { 0% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    .flow { stroke-dasharray: 4 6; animation: flow 2.2s linear infinite; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050505"/><stop offset="1" stop-color="#0B0B0B"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C9A227" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#E6C45A"/>
+      <stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ruleL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E6C45A"/>
+      <stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#C9A227" stroke-opacity=".05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="150" rx="16" fill="url(#bg)"/>
+  <rect x=".5" y=".5" width="1199" height="149" rx="16" fill="none" stroke="#1F1B10"/>
+  <g transform="translate(40 24)">
+    <rect width="265" height="102" rx="12" fill="#0E0E0D" stroke="#2E2816"/>
+    <rect x="20" y="0" width="36" height="2" fill="#C9A227"/>
+    <text x="20" y="32" class="mono" font-size="11" letter-spacing="2.5" fill="#C9A227">STUDYING</text>
+    <text x="20" y="64" class="sans" font-size="23" font-weight="600" fill="#F5F1E8">B.Tech AI &amp; DS</text>
+    <text x="20" y="86" class="sans" font-size="13.5" fill="#A9A39A">Loyola Institute · Final year</text>
+  </g>
+  <g transform="translate(325 24)">
+    <rect width="265" height="102" rx="12" fill="#0E0E0D" stroke="#2E2816"/>
+    <rect x="20" y="0" width="36" height="2" fill="#C9A227"/>
+    <text x="20" y="32" class="mono" font-size="11" letter-spacing="2.5" fill="#C9A227">WORKING</text>
+    <text x="20" y="64" class="sans" font-size="23" font-weight="600" fill="#F5F1E8">Python Developer</text>
+    <text x="20" y="86" class="sans" font-size="13.5" fill="#A9A39A">Nexvra Solutions · Sep 2026 →</text>
+  </g>
+  <g transform="translate(610 24)">
+    <rect width="265" height="102" rx="12" fill="#0E0E0D" stroke="#2E2816"/>
+    <rect x="20" y="0" width="36" height="2" fill="#C9A227"/>
+    <text x="20" y="32" class="mono" font-size="11" letter-spacing="2.5" fill="#C9A227">CGPA</text>
+    <text x="20" y="64" class="sans" font-size="23" font-weight="600" fill="#F5F1E8">8.5 / 10</text>
+    <text x="20" y="86" class="sans" font-size="13.5" fill="#A9A39A">7th semester</text>
+  </g>
+  <g transform="translate(895 24)">
+    <rect width="265" height="102" rx="12" fill="#0E0E0D" stroke="#2E2816"/>
+    <rect x="20" y="0" width="36" height="2" fill="#C9A227"/>
+    <text x="20" y="32" class="mono" font-size="11" letter-spacing="2.5" fill="#C9A227">GRADUATING</text>
+    <text x="20" y="64" class="sans" font-size="23" font-weight="600" fill="#F5F1E8">2027</text>
+    <text x="20" y="86" class="sans" font-size="13.5" fill="#A9A39A">Expected</text>
+  </g>
+</svg>

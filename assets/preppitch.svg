@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-labelledby="t d">
+  <title id="t">PrepPitch — interview-practice platform</title>
+  <desc id="d">Public prototype (React, TypeScript, Vite, Tailwind CSS, Gemini API) with built stages: Interview setup, Question engine, Mock interview, Answers, Follow-up, Evaluation, Progress. Main application in Django/Python, in development and not yet public: Backend, Interview flow, Question engine, Answer evaluation, Speech-to-text, Adaptive interviews.</desc>
+  <style>
+    .sans { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+    @keyframes flow { to { stroke-dashoffset: -40; } }
+    @keyframes shimmer { 0% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    .flow { stroke-dasharray: 4 6; animation: flow 2.2s linear infinite; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    @keyframes sweep { 0% { transform: translateX(-520px); } 60%, 100% { transform: translateX(520px); } }
+    .shine { animation: sweep 5s ease-in-out infinite; }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050505"/><stop offset="1" stop-color="#0B0B0B"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C9A227" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#E6C45A"/>
+      <stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ruleL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E6C45A"/>
+      <stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#C9A227" stroke-opacity=".05"/>
+    </pattern>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C9A227" stop-opacity="0"/><stop offset=".5" stop-color="#C9A227" stop-opacity=".09"/><stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="row"><rect width="500" height="44" rx="10"/></clipPath>
+    <clipPath id="clip"><rect width="1200" height="610" rx="16"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="610" rx="16" fill="url(#bg)"/>
+  <rect x=".5" y=".5" width="1199" height="609" rx="16" fill="none" stroke="#1F1B10"/>
+  <rect width="1200" height="610" rx="16" fill="url(#grid)" opacity=".7"/>
+  <g clip-path="url(#clip)">
+  <g transform="translate(44 42) scale(1.2)" fill="none" stroke="#E6C45A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="22" height="18" rx="3"/><path d="M1 8h22M5 5.5h.01M8 5.5h.01"/><path d="M6 13l3 2.5L6 18M12 18h6"/></g>
+  <text x="84" y="62" class="mono" font-size="12" letter-spacing="3" fill="#C9A227">FLAGSHIP PROJECT</text>
+  <text x="42" y="116" class="sans" font-size="44" font-weight="300" letter-spacing="2" fill="#F5F1E8">PrepPitch</text>
+  <text x="300" y="104" class="sans" font-size="17" fill="#A9A39A">An interview-practice platform: set up a role, answer timed</text>
+  <text x="300" y="128" class="sans" font-size="17" fill="#A9A39A">questions, get feedback, and track progress over time.</text>
+  <rect x="42" y="150" width="1116" height="1" fill="#2E2816"/>
+
+  <text x="42" y="184" class="mono" font-size="12" letter-spacing="2.5" fill="#E6C45A">PUBLIC PROTOTYPE</text>
+  <text x="200" y="184" class="mono" font-size="12" fill="#6F6A62">React · TypeScript · Vite · Tailwind · Gemini API</text>
+  <path d="M72 214V514" stroke="#C9A227" stroke-opacity=".6" stroke-width="1.4" class="flow"/>
+  <g>
+      <circle cx="72" cy="214" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
+      <circle cx="72" cy="214" r="3" fill="#E6C45A"/>
+      <text x="96" y="212" class="sans" font-size="16.5" font-weight="600" fill="#F5F1E8">Interview setup</text>
+      <text x="96" y="231" class="sans" font-size="13" fill="#A9A39A">type, difficulty, role, job description</text>
+      <g>
+    <rect x="533.5" y="203" width="62.5" height="22" rx="11" fill="none" fill-opacity="0" stroke="#C9A227" stroke-opacity="0.6"/>
+    <text x="564.75" y="218" class="mono" font-size="11" letter-spacing="1.5" fill="#E6C45A" text-anchor="middle" font-weight="600">BUILT</text>
+  </g>
+    </g><g>
+      <circle cx="72" cy="264" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
+      <circle cx="72" cy="264" r="3" fill="#E6C45A"/>
+      <text x="96" y="262" class="sans" font-size="16.5" font-weight="600" fill="#F5F1E8">Question engine</text>
+      <text x="96" y="281" class="sans" font-size="13" fill="#A9A39A">Gemini, or a built-in question bank</text>
+      <g>
+    <rect x="533.5" y="253" width="62.5" height="22" rx="11" fill="none" fill-opacity="0" stroke="#C9A227" stroke-opacity="0.6"/>
+    <text x="564.75" y="268" class="mono" font-size="11" letter-spacing="1.5" fill="#E6C45A" text-anchor="middle" font-weight="600">BUILT</text>
+  </g>
+    </g><g>
+      <circle cx="72" cy="314" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
+      <circle cx="72" cy="314" r="3" fill="#E6C45A"/>
+      <text x="96" y="312" class="sans" font-size="16.5" font-weight="600" fill="#F5F1E8">Mock interview</text>
+      <text x="96" y="331" class="sans" font-size="13" fill="#A9A39A">timed questions read aloud (TTS)</text>
+      <g>
+    <rect x="533.5" y="303" width="62.5" height="22" rx="11" fill="none" fill-opacity="0" stroke="#C9A227" stroke-opacity="0.6"/>
+    <text x="564.75" y="318" class="mono" font-size="11" letter-spacing="1.5" fill="#E6C45A" text-anchor="middle" font-weight="600">BUILT</text>
+  </g>
+    </g><g>
+      <circle cx="72" cy="364" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
+      <circle cx="72" cy="364" r="3" fill="#E6C45A"/>
+      <text x="96" y="362" class="sans" font-size="16.5" font-weight="600" fill="#F5F1E8">Answers</text>
+      <text x="96" y="381" class="sans" font-size="13" fill="#A9A39A">typed answers</text>
+      <g>
+    <rect x="533.5" y="353" width="62.5" height="22" rx="11" fill="none" fill-opacity="0" stroke="#C9A227" stroke-opacity="0.6"/>
+    <text x="564.75" y="368" class="mono" font-size="11" letter-spacing="1.5" fill="#E6C45A" text-anchor="middle" font-weight="600">BUILT</text>
+  </g>
+    </g><g>
+      <circle cx="72" cy="414" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
+      <circle cx="72" cy="414" r="3" fill="#E6C45A"/>
+      <text x="96" y="412" class="sans" font-size="16.5" font-weight="600" fill="#F5F1E8">Follow-up</text>
+      <text x="96" y="431" class="sans" font-size="13" fill="#A9A39A">one follow-up question per answer</text>
+      <g>
+    <rect x="533.5" y="403" width="62.5" height="22" rx="11" fill="none" fill-opacity="0" stroke="#C9A227" stroke-opacity="0.6"/>
+    <text x="564.75" y="418" class="mono" font-size="11" letter-spacing="1.5" fill="#E6C45A" text-anchor="middle" font-weight="600">BUILT</text>
+  </g>
+    </g><g>
+      <circle cx="72" cy="464" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
+      <circle cx="72" cy="464" r="3" fill="#E6C45A"/>
+      <text x="96" y="462" class="sans" font-size="16.5" font-weight="600" fill="#F5F1E8">Evaluation</text>
+      <text x="96" y="481" class="sans" font-size="13" fill="#A9A39A">Gemini rubric or rules · STAR checklist</text>
+      <g>
+    <rect x="533.5" y="453" width="62.5" height="22" rx="11" fill="none" fill-opacity="0" stroke="#C9A227" stroke-opacity="0.6"/>
+    <text x="564.75" y="468" class="mono" font-size="11" letter-spacing="1.5" fill="#E6C45A" text-anchor="middle" font-weight="600">BUILT</text>
+  </g>
+    </g><g>
+      <circle cx="72" cy="514" r="7" fill="#050505" stroke="#C9A227" stroke-width="1.4"/>
+      <circle cx="72" cy="514" r="3" fill="#E6C45A"/>
+      <text x="96" y="512" class="sans" font-size="16.5" font-weight="600" fill="#F5F1E8">Progress</text>
+      <text x="96" y="531" class="sans" font-size="13" fill="#A9A39A">charts and session history</text>
+      <g>
+    <rect x="533.5" y="503" width="62.5" height="22" rx="11" fill="none" fill-opacity="0" stroke="#C9A227" stroke-opacity="0.6"/>
+    <text x="564.75" y="518" class="mono" font-size="11" letter-spacing="1.5" fill="#E6C45A" text-anchor="middle" font-weight="600">BUILT</text>
+  </g>
+    </g>
+
+  <path d="M624 172V570" stroke="#2E2816"/>
+  <text x="652" y="184" class="mono" font-size="12" letter-spacing="2.5" fill="#E6C45A">MAIN APPLICATION</text>
+  <text x="818" y="184" class="mono" font-size="12" fill="#6F6A62">Django / Python · not yet public</text>
+  <g transform="translate(652 192)">
+      <rect width="500" height="44" rx="10" fill="#0E0E0D" stroke="#2E2816"/>
+      <g clip-path="url(#row)"><rect width="500" height="44" fill="url(#shine)" class="shine" style="animation-delay:0.0s"/></g>
+      <text x="20" y="28" class="sans" font-size="16" fill="#F5F1E8">Backend</text>
+    </g>
+    <g>
+    <rect x="1000.6" y="204" width="135.39999999999998" height="22" rx="11" fill="none" fill-opacity="0" stroke="#C9A227" stroke-opacity="0.6" stroke-dasharray="3 3"/>
+    <text x="1068.3" y="219" class="mono" font-size="11" letter-spacing="1.5" fill="#E6C45A" text-anchor="middle" font-weight="600">IN DEVELOPMENT</text>
+  </g><g transform="translate(652 250)">
+      <rect width="500" height="44" rx="10" fill="#0E0E0D" stroke="#2E2816"/>
+      <g clip-path="url(#row)"><rect width="500" height="44" fill="url(#shine)" class="shine" style="animation-delay:0.5s"/></g>
+      <text x="20" y="28" class="sans" font-size="16" fill="#F5F1E8">Interview flow</text>
+    </g>
+    <g>
+    <rect x="1000.6" y="262" width="135.39999999999998" height="22" rx="11" fill="none" fill-opacity="0" stroke="#C9A227" stroke-opacity="0.6" stroke-dasharray="3 3"/>
+    <text x="1068.3" y="277" class="mono" font-size="11" letter-spacing="1.5" fill="#E6C45A" text-anchor="middle" font-weight="600">IN DEVELOPMENT</text>
+  </g><g transform="translate(652 308)">
+      <rect width="500" height="44" rx="10" fill="#0E0E0D" stroke="#2E2816"/>
+      <g clip-path="url(#row)"><rect width="500" height="44" fill="url(#shine)" class="shine" style="animation-delay:1.0s"/></g>
+      <text x="20" y="28" class="sans" font-size="16" fill="#F5F1E8">Question engine</text>
+    </g>
+    <g>
+    <rect x="1000.6" y="320" width="135.39999999999998" height="22" rx="11" fill="none" fill-opacity="0" stroke="#C9A227" stroke-opacity="0.6" stroke-dasharray="3 3"/>
+    <text x="1068.3" y="335" class="mono" font-size="11" letter-spacing="1.5" fill="#E6C45A" text-anchor="middle" font-weight="600">IN DEVELOPMENT</text>
+  </g><g transform="translate(652 366)">
+      <rect width="500" height="44" rx="10" fill="#0E0E0D" stroke="#2E2816"/>
+      <g clip-path="url(#row)"><rect width="500" height="44" fill="url(#shine)" class="shine" style="animation-delay:1.5s"/></g>
+      <text x="20" y="28" class="sans" font-size="16" fill="#F5F1E8">Answer evaluation</text>
+    </g>
+    <g>
+    <rect x="1000.6" y="378" width="135.39999999999998" height="22" rx="11" fill="none" fill-opacity="0" stroke="#C9A227" stroke-opacity="0.6" stroke-dasharray="3 3"/>
+    <text x="1068.3" y="393" class="mono" font-size="11" letter-spacing="1.5" fill="#E6C45A" text-anchor="middle" font-weight="600">IN DEVELOPMENT</text>
+  </g><g transform="translate(652 424)">
+      <rect width="500" height="44" rx="10" fill="#0E0E0D" stroke="#2E2816"/>
+      <g clip-path="url(#row)"><rect width="500" height="44" fill="url(#shine)" class="shine" style="animation-delay:2.0s"/></g>
+      <text x="20" y="28" class="sans" font-size="16" fill="#F5F1E8">Speech-to-text</text>
+    </g>
+    <g>
+    <rect x="1000.6" y="436" width="135.39999999999998" height="22" rx="11" fill="none" fill-opacity="0" stroke="#C9A227" stroke-opacity="0.6" stroke-dasharray="3 3"/>
+    <text x="1068.3" y="451" class="mono" font-size="11" letter-spacing="1.5" fill="#E6C45A" text-anchor="middle" font-weight="600">IN DEVELOPMENT</text>
+  </g><g transform="translate(652 482)">
+      <rect width="500" height="44" rx="10" fill="#0E0E0D" stroke="#2E2816"/>
+      <g clip-path="url(#row)"><rect width="500" height="44" fill="url(#shine)" class="shine" style="animation-delay:2.5s"/></g>
+      <text x="20" y="28" class="sans" font-size="16" fill="#F5F1E8">Adaptive interviews</text>
+    </g>
+    <g>
+    <rect x="1000.6" y="494" width="135.39999999999998" height="22" rx="11" fill="none" fill-opacity="0" stroke="#C9A227" stroke-opacity="0.6" stroke-dasharray="3 3"/>
+    <text x="1068.3" y="509" class="mono" font-size="11" letter-spacing="1.5" fill="#E6C45A" text-anchor="middle" font-weight="600">IN DEVELOPMENT</text>
+  </g>
+  <text x="652" y="576" class="mono" font-size="12.5" fill="#A9A39A">github.com/vishak239/Prep-pitch <tspan fill="#E6C45A">↗</tspan></text>
+  </g>
+</svg>

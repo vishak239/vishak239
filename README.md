@@ -1,124 +1,117 @@
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="V VISHAK — AI Engineer · Python Developer · AI / ML. Building intelligent systems with Python, AI/ML, backend engineering and computer vision." />
+  <img src="assets/hero.svg" width="100%" alt="V VISHAK — AI Engineer · Python Developer · AI / ML. Building intelligent systems with Python, machine learning and computer vision. Now building PrepPitch with Django / Python." />
 </p>
 
 <p align="center">
-  <a href="mailto:vishak3416@gmail.com">Email</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/vishak3416">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/vishak239/Prep-pitch">PrepPitch</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/vishak239/vishak-portfolio">Portfolio source</a>
+  <a href="https://www.linkedin.com/in/vishak3416"><img src="assets/btn-linkedin.svg" height="38" alt="LinkedIn" /></a>&nbsp;
+  <a href="mailto:vishak3416@gmail.com"><img src="assets/btn-email.svg" height="38" alt="Email" /></a>&nbsp;
+  <a href="https://github.com/vishak239/Prep-pitch"><img src="assets/btn-preppitch.svg" height="38" alt="PrepPitch" /></a>&nbsp;
+  <a href="https://github.com/vishak239/vishak-portfolio"><img src="assets/btn-portfolio.svg" height="38" alt="Portfolio" /></a>
 </p>
 
 <br>
 
-### `01 / CURRENTLY`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-01.svg" />
+  <img src="assets/title-01-light.svg" width="100%" alt="01 / About" />
+</picture>
 
-- Final-year **B.Tech Artificial Intelligence & Data Science** student at Loyola Institute of Technology and Science
-- **Python Developer** at **Nexvra Solutions**, working on Python, backend development, databases, APIs, testing and debugging
-- Building **PrepPitch**, an AI-powered mock-interview platform, as its owner and developer
-- Building machine learning and computer vision projects in Python
+I’m **Vishak**, a final-year **Artificial Intelligence & Data Science** student who builds practical AI systems and Python applications. I work as a **Python Developer** at Nexvra Solutions, and I’m growing toward AI engineering through machine learning, computer vision and backend development.
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+<img src="assets/facts.svg" width="100%" alt="Studying B.Tech AI &amp; DS at Loyola Institute, final year · Working as a Python Developer at Nexvra Solutions since September 2026 · CGPA 8.5 / 10, 7th semester · Graduating 2027" />
 
-### `02 / FEATURED PROJECT`
+<br>
 
-#### [PrepPitch](https://github.com/vishak239/Prep-pitch) — AI-powered mock-interview platform
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-02.svg" />
+  <img src="assets/title-02-light.svg" width="100%" alt="02 / Currently building" />
+</picture>
 
-A practice platform for students: set up an interview for a target role, answer questions one at a time, and get structured feedback.
+<a href="https://github.com/vishak239/Prep-pitch"><img src="assets/preppitch.svg" width="100%" alt="PrepPitch — interview-practice platform. Public prototype (React, TypeScript, Vite, Tailwind CSS, Gemini API) with interview setup, question engine, mock interview, answers, follow-up, evaluation and progress all built. Main application in Django / Python, in development and not yet public: backend, interview flow, question engine, answer evaluation, speech-to-text and adaptive interviews." /></a>
 
-**Public prototype** — React · TypeScript · Vite · Tailwind CSS · Gemini API · [view repository](https://github.com/vishak239/Prep-pitch)
+<br>
 
-```text
-Interview setup ·········· interview type, difficulty, role, job description
-Question engine ·········· Gemini API when a key is set, otherwise a built-in question bank
-Mock interview ··········· timed questions, read aloud with browser text-to-speech
-Follow-up ················ up to one follow-up question per answer
-Evaluation & feedback ···· Gemini rubric or rule-based scoring, STAR checklist, per-question review
-Progress ················· charts and session history saved in the browser (localStorage)
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-03.svg" />
+  <img src="assets/title-03-light.svg" width="100%" alt="03 / Selected projects" />
+</picture>
 
-**Current development** — Django / Python · *in development, not yet public*
+<p align="center">
+  <a href="https://github.com/vishak239/Prep-pitch"><img src="assets/card-preppitch.svg" width="49%" alt="PrepPitch — interview-practice web app. React, TypeScript, Vite, Gemini API. Public prototype." /></a>
+  <img src="assets/card-drowsiness.svg" width="49%" alt="Driver Drowsiness Detection — webcam-based detection using the Eye Aspect Ratio and a CNN-based approach. Python, OpenCV. Repository not yet public." />
+  <a href="https://github.com/vishak239/house-price-prediction"><img src="assets/card-house.svg" width="49%" alt="House Price Prediction — compares Linear Regression and Random Forest, evaluated with MAE. Python, pandas, scikit-learn. Phase 1 notebook." /></a>
+  <a href="https://github.com/vishak239/Multiple-Linear-regression-practices"><img src="assets/card-regression.svg" width="49%" alt="Multiple Linear Regression — multi-feature regression experiments. Python, NumPy, scikit-learn. Practice." /></a>
+  <a href="https://github.com/vishak239/vishak-portfolio"><img src="assets/card-portfolio.svg" width="49%" alt="Portfolio — personal portfolio site. Next.js, TypeScript, Tailwind CSS. Built." /></a>
+  <a href="https://github.com/vishak239?tab=repositories"><img src="assets/card-foundations.svg" width="49%" alt="Python and data foundations — NumPy, Matplotlib, Seaborn and a Python archive with Tkinter, MySQL and Flask." /></a>
+</p>
 
-The main application, with its own interview flow, question engine, answer evaluation, speech-to-text and adaptive interview logic.
+<p align="center">
+  <sub><b>Foundations</b> &nbsp;·&nbsp; <a href="https://github.com/vishak239/numpy-practice">NumPy</a> &nbsp;·&nbsp; <a href="https://github.com/vishak239/Matplotlib_practices">Matplotlib</a> &nbsp;·&nbsp; <a href="https://github.com/vishak239/Seaborn_practices">Seaborn</a> &nbsp;·&nbsp; <a href="https://github.com/vishak239/python-practice">Python practice</a></sub>
+</p>
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+<br>
 
-### `03 / SELECTED PROJECTS`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-04.svg" />
+  <img src="assets/title-04-light.svg" width="100%" alt="04 / Experience" />
+</picture>
 
-| Project | What it does | Stack |
-|---|---|---|
-| [**PrepPitch**](https://github.com/vishak239/Prep-pitch) | Mock-interview practice web app (public prototype) | React · TypeScript · Gemini API |
-| [**House Price Prediction**](https://github.com/vishak239/house-price-prediction) | Predicts house sale prices and compares Linear Regression with Random Forest using MAE | Python · pandas · scikit-learn |
-| [**Multiple Linear Regression**](https://github.com/vishak239/Multiple-Linear-regression-practices) | Fits multi-feature regression models on small datasets | Python · NumPy · scikit-learn |
-| [**Python Practice**](https://github.com/vishak239/python-practice) | Python exercises, Tkinter GUIs, MySQL scripts and a small Flask JSON endpoint | Python · Tkinter · MySQL · Flask |
-| [**Portfolio**](https://github.com/vishak239/vishak-portfolio) | Personal portfolio site | Next.js · React · TypeScript · Tailwind CSS |
-| [**Data Visualization**](https://github.com/vishak239/Seaborn_practices) | Seaborn and [Matplotlib](https://github.com/vishak239/Matplotlib_practices) chart exercises, plus [NumPy](https://github.com/vishak239/numpy-practice) practice | Python · Seaborn · Matplotlib · pandas · NumPy |
+<img src="assets/experience.svg" width="100%" alt="Python Developer / Python Developer Intern at Nexvra Solutions, September 2026 to present, Marthandam: Python, backend development, databases, APIs, testing and debugging. Python Training / Machine Learning Intern at IT Desk. Deep Learning Intern at G-Tech. Internship / Student Role at MyInspection." />
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+<sub>The Nexvra Solutions role was secured independently through my own job search.</sub>
 
-### `04 / EXPERIENCE`
+<br>
 
-**Python Developer / Python Developer Intern** · Nexvra Solutions<br>
-September 2026 — Present · Marthandam<br>
-Python, backend development, databases, APIs, testing and debugging. Secured independently through my own job search.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-05.svg" />
+  <img src="assets/title-05-light.svg" width="100%" alt="05 / Education" />
+</picture>
 
-**Internships**<br>
-Python Training / Machine Learning Intern · IT Desk<br>
-Deep Learning Intern · G-Tech<br>
-Internship / Student Role · MyInspection
+<img src="assets/education.svg" width="100%" alt="B.Tech Artificial Intelligence &amp; Data Science, Loyola Institute of Technology and Science: final year, CGPA 8.5 / 10, expected graduation 2027. School: Vidya Jyothi Matriculation Higher Secondary School, State Board." />
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+<br>
 
-### `05 / EDUCATION`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-06.svg" />
+  <img src="assets/title-06-light.svg" width="100%" alt="06 / Technical stack" />
+</picture>
 
-**Loyola Institute of Technology and Science**<br>
-B.Tech — Artificial Intelligence & Data Science<br>
-Final Year / 7th Semester · Expected 2027 · CGPA 8.5 / 10
+<img src="assets/stack.svg" width="100%" alt="Languages: Python, SQL, JavaScript, TypeScript. AI / ML: scikit-learn, pandas, NumPy, Jupyter, Gemini API; learning deep learning. Computer vision: OpenCV, Eye Aspect Ratio, CNN-based approach. Backend: Flask, MySQL; learning Django. Data viz: Matplotlib, Seaborn. Web: React, Next.js, Vite, Tailwind CSS. Tools: Git, GitHub, VS Code." />
 
-**Vidya Jyothi Matriculation Higher Secondary School** · State Board
+<br>
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-07.svg" />
+  <img src="assets/title-07-light.svg" width="100%" alt="07 / Current focus" />
+</picture>
 
-### `06 / TECHNICAL AREAS`
+<img src="assets/focus.svg" width="100%" alt="Current focus: PrepPitch main application in Django / Python; complete, reproducible machine learning notebooks; webcam drowsiness detection with OpenCV; automotive AI." />
 
-| Area | Working with |
-|---|---|
-| **Languages** | Python · TypeScript · JavaScript · SQL |
-| **AI / ML** | Machine learning with scikit-learn (regression models) · Gemini API integration · deep learning (learning; CNN-based approach in drowsiness detection) |
-| **Computer Vision** | OpenCV · Eye Aspect Ratio (EAR) · CNN-based approach |
-| **Backend** | Python · Flask · MySQL · APIs and databases · Django (PrepPitch, in development) |
-| **Data** | pandas · NumPy · Matplotlib · Seaborn · Jupyter |
-| **Web** | React · Next.js · Vite · Tailwind CSS |
-| **Tools** | Git · GitHub · VS Code |
+<p align="center">
+  <sub><b>Interests</b> &nbsp;·&nbsp; artificial intelligence · machine learning · Python · backend development · computer vision · automotive AI · data science · AI-powered applications</sub>
+</p>
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+<br>
 
-### `07 / CURRENT BUILD`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-08.svg" />
+  <img src="assets/title-08-light.svg" width="100%" alt="08 / GitHub activity" />
+</picture>
 
-**PrepPitch — Django / Python** · *in development*
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=vishak239&background=0B0B0B&border=1F1B10&stroke=2E2816&ring=C9A227&fire=E6C45A&currStreakNum=F5F1E8&sideNums=F5F1E8&currStreakLabel=E6C45A&sideLabels=A9A39A&dates=6F6A62&border_radius=16&card_width=1000&card_height=200" width="100%" alt="GitHub contribution streak for vishak239" />
+</p>
 
-- Interview flow
-- Question engine
-- Answer evaluation
-- Speech-to-text
-- Adaptive interview logic
+<br>
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-09.svg" />
+  <img src="assets/title-09-light.svg" width="100%" alt="09 / Contact" />
+</picture>
 
-### `08 / AUTOMOTIVE AI`
+<a href="mailto:vishak3416@gmail.com"><img src="assets/footer.svg" width="100%" alt="Let’s build something intelligent. vishak3416@gmail.com · linkedin.com/in/vishak3416 · github.com/vishak239" /></a>
 
-An engineering interest I’m building toward, not professional automotive experience.
-
-- **Driver monitoring:** a webcam-based drowsiness detection project with OpenCV, the Eye Aspect Ratio, and a CNN-based approach (repository not yet public)
-- **Directions I’m exploring:** computer vision for intelligent vehicle systems, and AI-assisted automation
-
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
-
-### `09 / CONTACT`
-
-- **Email:** [vishak3416@gmail.com](mailto:vishak3416@gmail.com)
-- **LinkedIn:** [linkedin.com/in/vishak3416](https://www.linkedin.com/in/vishak3416)
-- **GitHub:** [github.com/vishak239](https://github.com/vishak239)
+<p align="center">
+  <a href="https://www.linkedin.com/in/vishak3416"><img src="assets/btn-linkedin.svg" height="38" alt="LinkedIn" /></a>&nbsp;
+  <a href="mailto:vishak3416@gmail.com"><img src="assets/btn-email.svg" height="38" alt="Email" /></a>
+</p>
