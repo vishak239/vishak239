@@ -104,18 +104,38 @@ I like starting from a real problem and working toward something that runs, whet
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/title-09.svg" />
-  <img src="assets/title-09-light.svg" width="100%" alt="09 — GitHub Activity" />
+  <img src="assets/title-09-light.svg" width="100%" alt="09 — Repositories" />
 </picture>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=vishak239&background=0B0B0B&border=26100F&stroke=3A1517&ring=D7263D&fire=FF4D5E&currStreakNum=F7F2F2&sideNums=F7F2F2&currStreakLabel=FF4D5E&sideLabels=ABA3A3&dates=6E6566&border_radius=16&card_width=1000&card_height=200" width="100%" alt="GitHub contribution streak for vishak239" />
+  <a href="https://github.com/vishak239/Prep-pitch"><img src="assets/live/repo-Prep-pitch.svg" width="49%" alt="Prep-pitch repository" /></a>
+  <a href="https://github.com/vishak239/vishak-portfolio"><img src="assets/live/repo-vishak-portfolio.svg" width="49%" alt="vishak-portfolio repository" /></a>
+  <a href="https://github.com/vishak239/house-price-prediction"><img src="assets/live/repo-house-price-prediction.svg" width="49%" alt="house-price-prediction repository" /></a>
+  <a href="https://github.com/vishak239/Multiple-Linear-regression-practices"><img src="assets/live/repo-Multiple-Linear-regression-practices.svg" width="49%" alt="Multiple-Linear-regression-practices repository" /></a>
+  <a href="https://github.com/vishak239/python-practice"><img src="assets/live/repo-python-practice.svg" width="49%" alt="python-practice repository" /></a>
+  <a href="https://github.com/vishak239/numpy-practice"><img src="assets/live/repo-numpy-practice.svg" width="49%" alt="numpy-practice repository" /></a>
 </p>
+
+<p align="center"><sub>Refreshed daily by <a href=".github/workflows/refresh-profile.yml">a GitHub Action</a>.</sub></p>
 
 <br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/title-10.svg" />
-  <img src="assets/title-10-light.svg" width="100%" alt="10 — Contact" />
+  <img src="assets/title-10-light.svg" width="100%" alt="10 — GitHub Activity" />
+</picture>
+
+<img src="assets/live/contributions.svg" width="100%" alt="Contribution calendar for the last 12 months with totals, active days, current and longest streak, and best day." />
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vishak239/vishak239/output/snake.svg" width="100%" alt="A red snake eating the contribution graph" />
+</p>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-11.svg" />
+  <img src="assets/title-11-light.svg" width="100%" alt="11 — Contact" />
 </picture>
 
 <a href="mailto:vishak3416@gmail.com"><img src="assets/footer.svg" width="100%" alt="Act III — the next chapter. Open to engineering fellowships, research collaborations and ambitious AI product teams. vishak3416@gmail.com · vishak-portfolio-gray.vercel.app · linkedin.com/in/vishak3416" /></a>

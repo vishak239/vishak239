@@ -16,7 +16,10 @@ rendered in red and black on GitHub.
 
 ```text
 README.md                    # profile README, assembled from the SVGs below
-scripts/build-assets.mjs     # generates every SVG in assets/
+scripts/theme.mjs            # shared palette, fonts and drawing helpers
+scripts/build-assets.mjs     # generates the static SVGs in assets/
+scripts/build-live.mjs       # generates assets/live/ from GitHub data (needs an authenticated gh)
+.github/workflows/refresh-profile.yml  # daily: rebuilds assets/live/ and the snake (output branch)
 assets/
   hero.svg                   # Act I: name, roles, portfolio headline, "now building" pill
   avatar.svg                 # the portfolio's V mark in red, for the GitHub profile picture
@@ -30,7 +33,9 @@ assets/
   education.svg              # 06
   stack.svg                  # 07 Skills; dashed = learning
   focus.svg                  # 08
-  footer.svg                 # 10 Act III: the next chapter
+  live/repo-*.svg            # 09 Repositories: pinned-style cards, refreshed daily
+  live/contributions.svg     # 10 GitHub Activity: themed calendar + streak stats, refreshed daily
+  footer.svg                 # 11 Act III: the next chapter
 ```
 
 Palette: background `#050505` / `#0B0B0B`, card `#100C0D`, red `#D7263D` / `#FF4D5E`, text `#F7F2F2`, muted `#ABA3A3`.
@@ -40,7 +45,7 @@ content on the first frame, and stop under `prefers-reduced-motion`. Text contai
 ## Updating
 
 1. Edit the data in `scripts/build-assets.mjs` (e.g. `PROJECTS`, the `items` in `experience()` or the `rows` in `stack()`).
-2. `node scripts/build-assets.mjs`
+2. `node scripts/build-assets.mjs` (and `node scripts/build-live.mjs` to refresh live cards locally; the Action also does this daily)
 3. Update the matching `alt` text in `README.md` so the text version stays accurate.
 4. Copy to the repo and commit:
 
