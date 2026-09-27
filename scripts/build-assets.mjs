@@ -469,6 +469,41 @@ function divider() {
   <rect x="594" y="6" width="12" height="12" transform="rotate(45 600 12)" fill="none" stroke="${C.accent2}" stroke-width="1.2"/>`);
 }
 
+// ── small link chips and strips (replace plain-text link rows) ──────────────
+function chip(label, { lead = false, arrow = true } = {}) {
+  const h = 34, w = Math.round(monoW(label, 12, 2) + (arrow ? 52 : 34));
+  return svg(w, h, { title: label },
+    `  <rect x=".5" y=".5" width="${w - 1}" height="${h - 1}" rx="17" fill="${lead ? C.accent : C.bg1}" stroke="${C.accent}" stroke-opacity="${lead ? 1 : 0.5}"/>
+  <text x="17" y="22" class="mono" font-size="12" letter-spacing="2" fill="${lead ? C.bg0 : C.text}" font-weight="${lead ? 700 : 400}">${esc(label)}</text>
+  ${arrow ? `<text x="${w - 16}" y="22" class="sans" font-size="13" fill="${C.accent2}" text-anchor="end">↗</text>` : ""}`);
+}
+
+function interests() {
+  const items = ["Artificial intelligence", "Machine learning", "Python development", "Backend development",
+    "Computer vision", "Data science", "Automotive AI", "Intelligent applications"];
+  const W = 1200, H = 116;
+  let x = 44, y = 62, body = "";
+  for (const it of items) {
+    const w = it.length * 8.2 + 30;
+    if (x + w > W - 44) { x = 44; y += 44; }
+    body += `<rect x="${x}" y="${y - 22}" width="${w}" height="32" rx="16" fill="${C.card}" stroke="${C.accent}" stroke-opacity=".3"/>
+  <text x="${x + w / 2}" y="${y - 1}" class="sans" font-size="14.5" fill="${C.text}" text-anchor="middle">${esc(it)}</text>`;
+    x += w + 10;
+  }
+  const h = y + 30;
+  return svg(W, h, { title: "Interests", desc: items.join(", ") },
+    `${panel(W, h)}
+  <text x="44" y="30" class="mono" font-size="11" letter-spacing="2.5" fill="${C.accent}">INTERESTS</text>
+  ${body}`);
+}
+
+function note(label) {
+  const w = Math.round(monoW(label, 11, 1.8) + 44), h = 26;
+  return svg(w, h, { title: label },
+    `  <circle cx="14" cy="13" r="3.5" fill="${C.accent2}" class="pulse"/>
+  <text x="26" y="17.5" class="mono" font-size="11" letter-spacing="1.8" fill="${C.muted}">${esc(label)}</text>`);
+}
+
 // ── write everything ───────────────────────────────────────────────────────
 write("hero.svg", hero());
 write("avatar.svg", avatar());
@@ -481,6 +516,11 @@ write("education.svg", education());
 write("stack.svg", stack());
 write("focus.svg", focus());
 write("footer.svg", footer());
+write("chip-code.svg", chip("CODE", { lead: true, arrow: false }));
+for (const [file, label] of [["portfolio-source", "PORTFOLIO SOURCE"], ["python-practice", "PYTHON-PRACTICE"], ["numpy", "NUMPY"], ["matplotlib", "MATPLOTLIB"], ["seaborn", "SEABORN"]])
+  write(`chip-${file}.svg`, chip(label));
+write("interests.svg", interests());
+write("note-refresh.svg", note("REFRESHED DAILY BY A GITHUB ACTION"));
 for (const [name, p] of Object.entries(PROJECTS)) write(`${name}.svg`, card(p));
 write("btn-portfolio.svg", button("PORTFOLIO", true));
 for (const label of ["LINKEDIN", "EMAIL", "PREPPITCH"]) write(`btn-${label.toLowerCase()}.svg`, button(label));

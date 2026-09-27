@@ -48,7 +48,12 @@ I like starting from a real problem and working toward something that runs, whet
 </p>
 
 <p align="center">
-  <sub><b>Code</b> &nbsp;·&nbsp; <a href="https://github.com/vishak239/vishak-portfolio">portfolio source</a> &nbsp;·&nbsp; <a href="https://github.com/vishak239/python-practice">python-practice</a> &nbsp;·&nbsp; <a href="https://github.com/vishak239/numpy-practice">NumPy</a> &nbsp;·&nbsp; <a href="https://github.com/vishak239/Matplotlib_practices">Matplotlib</a> &nbsp;·&nbsp; <a href="https://github.com/vishak239/Seaborn_practices">Seaborn</a></sub>
+  <img src="assets/chip-code.svg" height="30" alt="Code" />&nbsp;
+  <a href="https://github.com/vishak239/vishak-portfolio"><img src="assets/chip-portfolio-source.svg" height="30" alt="Portfolio source" /></a>&nbsp;
+  <a href="https://github.com/vishak239/python-practice"><img src="assets/chip-python-practice.svg" height="30" alt="python-practice" /></a>&nbsp;
+  <a href="https://github.com/vishak239/numpy-practice"><img src="assets/chip-numpy.svg" height="30" alt="NumPy practice" /></a>&nbsp;
+  <a href="https://github.com/vishak239/Matplotlib_practices"><img src="assets/chip-matplotlib.svg" height="30" alt="Matplotlib practice" /></a>&nbsp;
+  <a href="https://github.com/vishak239/Seaborn_practices"><img src="assets/chip-seaborn.svg" height="30" alt="Seaborn practice" /></a>
 </p>
 
 <br>
@@ -96,9 +101,7 @@ I like starting from a real problem and working toward something that runs, whet
 
 <img src="assets/focus.svg" width="100%" alt="Current focus: PrepPitch main application in Django / Python; complete, reproducible machine learning notebooks; webcam drowsiness detection with OpenCV, EAR and a CNN; automotive AI." />
 
-<p align="center">
-  <sub><b>Interests</b> &nbsp;·&nbsp; artificial intelligence · machine learning · Python development · backend development · computer vision · data science · automotive AI · intelligent applications</sub>
-</p>
+<img src="assets/interests.svg" width="100%" alt="Interests: artificial intelligence, machine learning, Python development, backend development, computer vision, data science, automotive AI, intelligent applications" />
 
 <br>
 
@@ -116,7 +119,7 @@ I like starting from a real problem and working toward something that runs, whet
   <a href="https://github.com/vishak239/numpy-practice"><img src="assets/live/repo-numpy-practice.svg" width="49%" alt="numpy-practice repository" /></a>
 </p>
 
-<p align="center"><sub>Refreshed daily by <a href=".github/workflows/refresh-profile.yml">a GitHub Action</a>.</sub></p>
+<p align="center"><a href=".github/workflows/refresh-profile.yml"><img src="assets/note-refresh.svg" height="24" alt="Refreshed daily by a GitHub Action" /></a></p>
 
 <br>
 
